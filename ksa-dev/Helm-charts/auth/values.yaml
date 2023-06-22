@@ -26,7 +26,7 @@ autoscaling:
   minReplicas: 1
   maxReplicas: 3
   targetCPUUtilizationPercentage: 80
-namespace: 'dev'
+namespace: 'ksa-dev'
 
 ##for liveness and readiness
 path: '/health'
