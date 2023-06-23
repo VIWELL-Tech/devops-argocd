@@ -1,0 +1,17 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dev-seed
+  namespace: 'argocd'
+spec:
+  syncPolicy:
+    automated: {}
+  destination:
+    namespace: 'dev'
+    server: 'https://8CF2A16739472A35C4BE9C2F4E53E673.gr7.us-east-1.eks.amazonaws.com'
+  source:
+    path: dev/Helm-charts/viwell-seed
+    repoURL: 'git@github.com:VIWELL-Tech/devops-argocd.git'
+    targetRevision: main
+  sources: []
+  project: 'dev'
