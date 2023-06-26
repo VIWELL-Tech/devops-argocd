@@ -31,7 +31,3 @@ namespace: 'prod'
 ##for liveness and readiness
 path: '/health'
 port: 30020
-
-DB_HOST: ''
-DB_USER: ''
-DB_PASS: ''
