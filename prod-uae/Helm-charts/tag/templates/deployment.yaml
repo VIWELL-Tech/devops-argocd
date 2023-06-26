@@ -29,7 +29,6 @@ spec:
              name: {{ .Values.name }}
         - secretRef:
              name: common          
-            name: {{ .Values.name }}-common
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         livenessProbe:
