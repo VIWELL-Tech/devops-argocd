@@ -33,13 +33,3 @@ spec:
               number: {{ .Values.port }}
         path: /
         pathType: ImplementationSpecific
-  - host: api-tmp.viwell.com
-    http:
-      paths:
-      - backend:
-          service:
-            name: {{ .Values.name }}
-            port:
-              number: {{ .Values.port }}
-        path: /
-        pathType: ImplementationSpecific
