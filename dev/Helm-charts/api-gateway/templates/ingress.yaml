@@ -33,13 +33,13 @@ spec:
               number: {{ .Values.port }}
         path: /
         pathType: ImplementationSpecific
-  # - host: api-dev.viwell.com
-  #   http:
-  #     paths:
-  #     - backend:
-  #         service:
-  #           name: socket
-  #           port:
-  #             number: 8888
-  #       path: /ws
-  #       pathType: ImplementationSpecific
+  - host: basimtest.viwell.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: {{ .Values.name }}
+            port:
+              number: {{ .Values.port }}
+        path: /ws
+        pathType: ImplementationSpecific
