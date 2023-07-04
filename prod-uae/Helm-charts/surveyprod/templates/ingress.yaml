@@ -21,7 +21,7 @@ metadata:
   name: {{ .Values.name }}
 spec:
   rules:
-  - host: prod-api-survey.viwell.com
+  - host: api-survey.viwell.com
     http:
       paths:
       - backend:
