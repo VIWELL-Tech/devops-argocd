@@ -27,10 +27,8 @@ spec:
       - envFrom:
         - secretRef:
             name: {{ .Values.name }}
-        - configMapRef:
-            name: {{ .Values.name }}
-        - configMapRef:
-            name: {{ .Values.name }}-common
+        - secretRef:
+            name: common
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         
