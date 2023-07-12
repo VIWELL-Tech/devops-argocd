@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-tag
+  name: ksa-dev-tag
   namespace: 'argocd'
 spec:
   syncPolicy:

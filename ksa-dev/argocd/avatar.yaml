@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-avatar
+  name: ksa-dev-avatar
   namespace: 'argocd'
 spec:
   syncPolicy:

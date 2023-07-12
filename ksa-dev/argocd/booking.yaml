@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-booking
+  name: ksa-dev-booking
   namespace: 'argocd'
 spec:
   syncPolicy:

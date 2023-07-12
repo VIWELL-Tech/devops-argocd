@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-reward-partner
+  name: ksa-dev-reward-partner
   namespace: 'argocd'
 spec:
   syncPolicy:
