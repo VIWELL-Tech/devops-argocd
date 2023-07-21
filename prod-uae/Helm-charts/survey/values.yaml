@@ -1,5 +1,6 @@
 name: survey
 replicaCount: 1
+AppVersion: ""
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/survey
