@@ -10,7 +10,7 @@ spec:
     namespace: 'ksa-dev'
     server: 'https://kubernetes.default.svc'
   source:
-    path: ksa-dev/Helm-charts/assessment-v2
+    path: ksa-dev/Helm-charts/assessmentv2
     repoURL: 'git@github.com:VIWELL-Tech/devops-argocd.git'
     targetRevision: main
   sources: []
