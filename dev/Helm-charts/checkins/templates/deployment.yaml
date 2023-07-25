@@ -22,7 +22,7 @@ spec:
 
       labels:
         app: {{ .Values.name }}
-        version: {{ .Values.AppVersion }}
+        version: "{{ .Values.AppVersion }}"
     spec:
       containers: 
       - envFrom:

@@ -1,26 +1,26 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: {{ .Values.name }}
+  name: { { .Values.name } }
   labels:
-    env: {{ .Values.name }}
+    env: { { .Values.name } }
   annotations:
     # "helm.sh/hook": pre-upgrade
     # "helm.sh/hook-delete-policy": before-hook-creation
-    # "helm.sh/hook-weight": "0"    
+    # "helm.sh/hook-weight": "0"
 spec:
   template:
     metadata:
       labels:
-        app: {{ .Values.name }}
-        version: {{ .Values.AppVersion }}
+        app: { { .Values.name } }
+        version: '{{ .Values.AppVersion }}'
     spec:
       restartPolicy: Never
       containers:
-      - name: {{ .Values.name }}
-        image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-        envFrom:
-        - secretRef:
-             name: {{ .Values.name }}        
+        - name: { { .Values.name } }
+          image: '{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}'
+          envFrom:
+            - secretRef:
+                name: { { .Values.name } }
 #           - configMapRef:
 #              name: {{ .Values.name }}
