@@ -1,6 +1,6 @@
 name: favorite
 replicaCount: 1
-AppVersion: d46bac5
+AppVersion: 6b8caea
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/favorite
