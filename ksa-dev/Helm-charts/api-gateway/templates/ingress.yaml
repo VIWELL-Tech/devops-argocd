@@ -23,7 +23,7 @@ metadata:
   name: {{ .Values.name }}
 spec:
   rules:
-  - host: api-ksa-dev.viwell.com
+  - host: api-dev-b.viwell.com
     http:
       paths:
       - backend:
