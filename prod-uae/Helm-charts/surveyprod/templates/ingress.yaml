@@ -31,7 +31,27 @@ spec:
               number: {{ .Values.port }}
         path: /
         pathType: ImplementationSpecific
+  - host: api-survey.viwell.app
+    http:
+      paths:
+      - backend:
+          service:
+            name: {{ .Values.name }}
+            port:
+              number: {{ .Values.port }}
+        path: /
+        pathType: ImplementationSpecific
   - host: prod-api-survey.viwell.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: {{ .Values.name }}
+            port:
+              number: {{ .Values.port }}
+        path: /
+        pathType: ImplementationSpecific        
+  - host: prod-api-survey.viwell.app
     http:
       paths:
       - backend:
