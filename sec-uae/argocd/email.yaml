@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: dev-reward-partner
+  name: sec-email
   namespace: 'argocd'
 spec:
   syncPolicy:
     automated: {}
   destination:
-    namespace: 'dev'
+    namespace: 'sec'
     server: 'https://18BD766DF4B9BCA88A6E5414D08FCF69.gr7.me-central-1.eks.amazonaws.com'
   source:
-    path: dev/Helm-charts/reward-partner
+    path: sec-uae/Helm-charts/email
     repoURL: 'git@github.com:VIWELL-Tech/devops-argocd.git'
     targetRevision: main
   sources: []

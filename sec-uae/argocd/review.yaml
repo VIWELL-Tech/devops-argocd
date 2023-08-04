@@ -1,17 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: prod-uae-survey
+  name: sec-review
   namespace: 'argocd'
 spec:
   syncPolicy:
     automated: {}
   destination:
     namespace: 'sec'
-    server: 'https://648B85ABDD1EC44F2A6039F28E44FC16.yl4.me-central-1.eks.amazonaws.com'
+    server: 'https://18BD766DF4B9BCA88A6E5414D08FCF69.gr7.me-central-1.eks.amazonaws.com'
   source:
-    path: prod-uae/Helm-charts/surveyprod
+    path: sec-uae/Helm-charts/review
     repoURL: 'git@github.com:VIWELL-Tech/devops-argocd.git'
     targetRevision: main
   sources: []
-  project: 'prod'
+  project: 'sec'
