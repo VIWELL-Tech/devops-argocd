@@ -33,7 +33,7 @@ spec:
               number: {{ .Values.port }}
         path: /
         pathType: ImplementationSpecific
-  - host: stagging-api.viwell.app
+  - host: api-staging.viwell.app
     http:
       paths:
       - backend:
