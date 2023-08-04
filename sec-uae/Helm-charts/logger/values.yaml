@@ -1,0 +1,34 @@
+name: logger
+replicaCount: 1
+AppVersion: prod-e8b9889
+
+image:
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/logger
+  pullPolicy: Always
+  tag: ''
+
+podAnnotations:
+  linkerd.io/inject: disabled
+
+podSecurityContext: {}
+
+service:
+  type: NodePort
+  port: 30016
+  targetport: 30016
+
+# resources:
+#   requests:
+#     cpu: 250m
+#     memory: 128m
+
+autoscaling:
+  enabled: false
+  minReplicas: 2
+  maxReplicas: 10
+  targetCPUUtilizationPercentage:
+namespace: 'sec'
+
+##for liveness and readiness
+path: '/health'
+port: 30016
