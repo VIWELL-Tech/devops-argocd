@@ -1,6 +1,6 @@
 name: category
 replicaCount: 1
-AppVersion: "052d50f"
+AppVersion: "ee787ea"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/category
