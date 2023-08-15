@@ -1,6 +1,6 @@
 name: thryve-redirect
 replicaCount: 1
-AppVersion: prod-72fb6df
+AppVersion: "5138220"
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/thryve-redirect
