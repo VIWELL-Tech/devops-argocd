@@ -1,7 +1,6 @@
 name: reward-partner
 replicaCount: 1
-AppVersion: prod-5efc52e
-
+AppVersion: prod-latest
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/reward-partner
   pullPolicy: Always
