@@ -23,7 +23,7 @@ metadata:
   name: {{ .Values.name }}
 spec:
   rules:
-  - host: www.thryve.viwell.app
+  - host: thryve.viwell.app
     http:
       paths:
       - backend:
