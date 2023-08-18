@@ -1,6 +1,6 @@
 name: content
 replicaCount: 1
-AppVersion: "af7052c"
+AppVersion: "54adf07"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/content
