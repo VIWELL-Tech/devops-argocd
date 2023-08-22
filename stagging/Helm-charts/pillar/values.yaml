@@ -1,6 +1,6 @@
 name: pillar
 replicaCount: 1
-AppVersion: ""
+AppVersion: "386b1b4"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/pillar
