@@ -1,6 +1,6 @@
 name: rbac
 replicaCount: 1
-AppVersion: prod-latest
+AppVersion: prod-e5ce224
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/rbac
