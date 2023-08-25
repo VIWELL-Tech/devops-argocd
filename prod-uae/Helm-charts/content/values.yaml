@@ -1,6 +1,6 @@
 name: content
 replicaCount: 1
-AppVersion: prod-latest
+AppVersion: prod-54adf07
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/content
