@@ -1,6 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  ENV: "dev"
 
 kind: ConfigMap
 metadata:

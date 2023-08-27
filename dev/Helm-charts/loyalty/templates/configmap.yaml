@@ -1,6 +1,9 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  PORT: "30021"
+  HOST: "0.0.0.0"
+  DB: "viwell-loyalty"
 
 kind: ConfigMap
 metadata:
