@@ -1,6 +1,11 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  PORT: "3002"
+  HOST: "0.0.0.0"
+  DB: "viwell-notification"
+  NODE_ENV: "false"
+  AUTH_DB: "viwell-auth"
 
 kind: ConfigMap
 metadata:

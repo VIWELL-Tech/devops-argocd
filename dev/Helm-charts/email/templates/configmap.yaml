@@ -1,6 +1,15 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  EmailHost: "email-smtp.us-east-2.amazonaws.com"
+  EmailPort: "465"
+  EmailAccountType: "SES"
+  ENV: "dev"
+  DB: "viwell-email"
+  SUPPORT_EMAIL: "care@viwell.com"
+  OrgId: "779485866"
+  DepartmentId: "730549000000820185"
+  ZohoClientId: "1000.M6DGGY0Q49ZI1MC8UTPBFIUFH3XF3P"
 
 kind: ConfigMap
 metadata:
