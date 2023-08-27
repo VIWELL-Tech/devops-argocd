@@ -8,8 +8,5 @@ metadata:
 data:
     PORT: "30020"
     HOST: "0.0.0.0"
-    
-    DB_HOST: {{ .Values.DB_HOST }}
-    DB_USER: {{ .Values.DB_USER }}
-    DB_PASS: {{ .Values.DB_PASS }}
-    DB: "viwell-activity"
+    DB: "TEST_viwell-activity"
+    AdminHost: "portal-test.viwell.app"

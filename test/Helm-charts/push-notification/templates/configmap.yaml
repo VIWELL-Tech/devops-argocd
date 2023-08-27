@@ -1,6 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  DB: "TEST_viwell-push-notification"
 
 kind: ConfigMap
 metadata:

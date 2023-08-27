@@ -1,6 +1,8 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  ENV: "test"
+  APP_NAME: "TEST_viwell"
 
 kind: ConfigMap
 metadata:

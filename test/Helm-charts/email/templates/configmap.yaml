@@ -1,6 +1,14 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  DB: "TEST_viwell-email"
+  EmailHost: "email-smtp.us-east-2.amazonaws.com"
+  EmailPort: "465"
+  EmailAccountType: "SES"
+  ENV: "test"
+  SUPPORT_EMAIL: "care@viwell.com"
+  OrgId: "779485866"
+  DepartmentId: "730549000000820185"
 
 kind: ConfigMap
 metadata:

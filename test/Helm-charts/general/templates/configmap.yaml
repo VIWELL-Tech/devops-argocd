@@ -1,6 +1,9 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  PORT: "30028"
+  HOST: "0.0.0.0"
+  DB: "TEST_viwell-general"
 
 kind: ConfigMap
 metadata:
