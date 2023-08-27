@@ -1,6 +1,15 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  PORT: "30040"
+  HOST: "0.0.0.0"
+  DB: "viwell-wearable"
+  S3_Bucket: "image-resize-dev-814880204573-us-east-1"
+  S3_Region: "us-east-1"
+  apiUrl: "https://api.und-gesund.de/v5/"
+  ContentType: "application/x-www-form-urlencoded"
+  AppID: "8DlPLJh4HTz7K5la"
+  THRYVE_AppID: "I3cyPnMYglAiW4As"
 
 kind: ConfigMap
 metadata:
