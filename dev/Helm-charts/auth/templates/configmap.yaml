@@ -6,7 +6,7 @@ data:
   DB: "viwell-auth"
   AdminHost: "portal-dev.viwell.app"
   JwtIss: "viwell.com"
-  DYNAMIC_LINK_DOMAIN_URI_PREFIX: "https://link.viwell.app"
+  
 
 kind: ConfigMap
 metadata:
