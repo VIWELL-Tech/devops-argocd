@@ -4,7 +4,6 @@ data:
   PORT: "30020"
   HOST: "0.0.0.0"
   DB: "viwell-activity"
-  DYNAMIC_LINK_DOMAIN_URI_PREFIX: "https://link.viwell.app"
   AdminHost: "portal-dev.viwell.app"
 
 kind: ConfigMap
