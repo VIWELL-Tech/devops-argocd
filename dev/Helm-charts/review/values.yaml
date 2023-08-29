@@ -1,10 +1,10 @@
 name: review
 replicaCount: 1
-AppVersion: "2d90f88"
+AppVersion: '2d90f88'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/review
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

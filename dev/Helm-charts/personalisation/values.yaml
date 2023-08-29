@@ -1,10 +1,10 @@
 name: personalisation
 replicaCount: 1
-AppVersion: "a233955"
+AppVersion: 'a233955'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/personalisation
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

@@ -1,10 +1,10 @@
 name: progress
 replicaCount: 1
-AppVersion: "cd146c5"
+AppVersion: 'cd146c5'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/progress
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

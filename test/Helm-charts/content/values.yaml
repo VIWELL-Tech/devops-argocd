@@ -1,10 +1,10 @@
 name: content
 replicaCount: 1
-AppVersion: "1b32051"
+AppVersion: '1b32051'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/content
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

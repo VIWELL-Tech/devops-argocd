@@ -1,10 +1,10 @@
 name: auth
 replicaCount: 1
-AppVersion: "f6bb13d"
+AppVersion: 'f6bb13d'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/auth
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

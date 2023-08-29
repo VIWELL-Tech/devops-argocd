@@ -1,10 +1,10 @@
 name: api-gateway
 replicaCount: 2
-AppVersion: "9a8713b"
+AppVersion: '9a8713b'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/api-gateway
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

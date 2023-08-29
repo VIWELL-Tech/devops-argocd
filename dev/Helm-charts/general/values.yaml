@@ -1,10 +1,10 @@
 name: general
 replicaCount: 1
-AppVersion: "fbcb7ef"
+AppVersion: 'fbcb7ef'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/general
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

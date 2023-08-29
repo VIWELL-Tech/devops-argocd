@@ -1,10 +1,10 @@
 name: wearable
 replicaCount: 1
-AppVersion: "2ccd5af"
+AppVersion: '2ccd5af'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/wearable
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

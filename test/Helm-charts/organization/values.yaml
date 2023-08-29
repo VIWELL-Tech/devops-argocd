@@ -1,10 +1,10 @@
 name: organization
 replicaCount: 1
-AppVersion: "44284f4"
+AppVersion: '44284f4'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/organization
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

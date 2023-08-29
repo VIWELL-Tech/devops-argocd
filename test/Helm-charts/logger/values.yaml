@@ -1,10 +1,10 @@
 name: logger
 replicaCount: 1
-AppVersion: "961b37d"
+AppVersion: '961b37d'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/logger
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

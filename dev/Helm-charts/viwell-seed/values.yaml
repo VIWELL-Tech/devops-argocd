@@ -1,11 +1,11 @@
 name: viwell-seed
 replicaCount: 1
-AppVersion: "72a6a5b"
+AppVersion: '72a6a5b'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/viwell-seed
-  pullPolicy: Always
-  tag: ""
+  pullPolicy: IfNotPresent
+  tag: ''
 
 podAnnotations:
   linkerd.io/inject: disabled
@@ -17,7 +17,7 @@ service:
   port: 80
   targetport: 80
 
-# resources: 
+# resources:
 #   requests:
 #     cpu: 250m
 #     memory: 128m
@@ -26,11 +26,9 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 3
-  targetCPUUtilizationPercentage:   
-namespace: "dev"
-  
+  targetCPUUtilizationPercentage:
+namespace: 'dev'
+
 ##for liveness and readiness
-path: "/"
+path: '/'
 port: 80
-
-

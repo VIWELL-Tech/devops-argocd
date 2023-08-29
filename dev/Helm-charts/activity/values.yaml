@@ -1,11 +1,11 @@
 name: activity
 replicaCount: 1
-AppVersion: "1aae8ec"
+AppVersion: '1aae8ec'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/activity
-  pullPolicy: Always
-  tag: ""
+  pullPolicy: IfNotPresent
+  tag: ''
 
 podAnnotations:
   linkerd.io/inject: disabled
@@ -17,7 +17,7 @@ service:
   port: 30020
   targetport: 30020
 
-# resources: 
+# resources:
 #   requests:
 #     cpu: 250m
 #     memory: 128m
@@ -26,10 +26,9 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 3
-  targetCPUUtilizationPercentage:   
-namespace: "dev"
-  
-##for liveness and readiness
-path: "/health"
-port: 30020
+  targetCPUUtilizationPercentage:
+namespace: 'dev'
 
+##for liveness and readiness
+path: '/health'
+port: 30020

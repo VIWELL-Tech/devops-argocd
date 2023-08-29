@@ -1,10 +1,10 @@
 name: pillar
 replicaCount: 1
-AppVersion: "bbe54de"
+AppVersion: 'bbe54de'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/pillar
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

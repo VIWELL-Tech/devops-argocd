@@ -1,10 +1,10 @@
 name: loyalty
 replicaCount: 1
-AppVersion: "99e5700"
+AppVersion: '99e5700'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/loyalty
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:

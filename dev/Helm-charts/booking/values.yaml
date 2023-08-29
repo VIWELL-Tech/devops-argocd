@@ -1,10 +1,10 @@
 name: booking
 replicaCount: 1
-AppVersion: "7926ec4"
+AppVersion: '7926ec4'
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/booking
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tag: ''
 
 podAnnotations:
