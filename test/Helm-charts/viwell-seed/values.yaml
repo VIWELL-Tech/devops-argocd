@@ -1,6 +1,6 @@
 name: viwell-seed
 replicaCount: 1
-AppVersion: "87e2694"
+AppVersion: "153db98"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/viwell-seed
