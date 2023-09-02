@@ -1,6 +1,6 @@
 name: review
 replicaCount: 1
-AppVersion: prod-2d90f88
+AppVersion: prod-85c1de8
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/review
