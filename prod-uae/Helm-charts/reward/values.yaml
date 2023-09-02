@@ -1,6 +1,6 @@
 name: reward
 replicaCount: 1
-AppVersion: prod-d91744c
+AppVersion: prod-c425536
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/reward
