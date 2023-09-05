@@ -1,6 +1,6 @@
 name: loyalty
 replicaCount: 1
-AppVersion: prod-d5f9f5d
+AppVersion: prod-8f61124
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/loyalty
