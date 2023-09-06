@@ -40,7 +40,7 @@ spec:
             path: {{ .Values.path }}
             port: {{ .Values.port }}
             scheme: HTTP
-          initialDelaySeconds: 10
+          initialDelaySeconds: 120
           periodSeconds: 5
           successThreshold: 1
           timeoutSeconds: 1
