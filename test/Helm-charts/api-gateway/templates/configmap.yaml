@@ -3,7 +3,7 @@ data:
   VAR: "INPUT"
   PORT: "80"
   HOST: "0.0.0.0"
-  JwtIss: "viwell.com"
+  JwtIss: "viwell.app"
 
 kind: ConfigMap
 metadata:
