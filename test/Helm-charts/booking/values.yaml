@@ -1,6 +1,6 @@
 name: booking
 replicaCount: 1
-AppVersion: "80f8523"
+AppVersion: "6bac341"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/booking
