@@ -1,6 +1,6 @@
 name: category
 replicaCount: 1
-AppVersion: prod-d80256f
+AppVersion: prod-7bfe108
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/category
