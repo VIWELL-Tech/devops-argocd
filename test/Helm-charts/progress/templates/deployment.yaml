@@ -41,7 +41,7 @@ spec:
             port: {{ .Values.port }}
             scheme: HTTP
           initialDelaySeconds: 120
-          periodSeconds: 5
+          periodSeconds: 7
           successThreshold: 1
           timeoutSeconds: 1
         name: {{ .Values.name }}
@@ -55,7 +55,7 @@ spec:
             port: {{ .Values.port }}
             scheme: HTTP
           initialDelaySeconds: 60
-          periodSeconds: 3
+          periodSeconds: 7
           successThreshold: 1
           timeoutSeconds: 1
         resources:
