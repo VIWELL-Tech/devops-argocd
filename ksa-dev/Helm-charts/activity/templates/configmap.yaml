@@ -1,6 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  ENV: "ksa-dev"
 
 kind: ConfigMap
 metadata:
