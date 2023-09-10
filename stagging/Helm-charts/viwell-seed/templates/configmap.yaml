@@ -1,8 +1,11 @@
 apiVersion: v1
 data:
-  VAR: "INPUT"
+  VAR: 'INPUT'
+  ENV: 'stagging'
+  SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
+  SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
 
 kind: ConfigMap
 metadata:
-  name:  {{ .Values.name }}
-  namespace: {{ .Values.namespace }}
+  name: { { .Values.name } }
+  namespace: { { .Values.namespace } }
