@@ -24,6 +24,7 @@ spec:
         app: {{ .Values.name }}
         version: "{{ .Values.AppVersion }}"
     spec:
+      serviceAccountName: email-dev-b
       containers: 
       - envFrom:
         - secretRef:
