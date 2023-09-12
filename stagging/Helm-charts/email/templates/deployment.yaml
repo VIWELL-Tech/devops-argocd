@@ -24,6 +24,7 @@ spec:
         app: {{ .Values.name }}
         version: "{{ .Values.AppVersion }}"
     spec:
+      serviceAccountName: email-staging
       containers: 
       - envFrom:
         - secretRef:
