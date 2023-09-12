@@ -30,6 +30,8 @@ spec:
             name: {{ .Values.name }}
         - configMapRef:
             name: {{ .Values.name }}
+        - configMapRef:
+            name: {{ .Values.name }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         livenessProbe:
