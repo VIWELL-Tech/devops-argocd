@@ -12,8 +12,4 @@ data:
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
   PORT: "30020"
   HOST: "0.0.0.0"
-  
-  DB_HOST: {{ .Values.DB_HOST }}
-  DB_USER: {{ .Values.DB_USER }}
-  DB_PASS: {{ .Values.DB_PASS }}
-  DB: "stagging-activity"
+  DB: "Stagging-activity"
