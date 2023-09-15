@@ -5,6 +5,10 @@ data:
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
   RabbitTimeout: '10000'
+  USER_STORE_DB: 'Stagging-user-store'
+  AdminHost: 'portal-staging.viwell.app'
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  
 
 kind: ConfigMap
 metadata:
