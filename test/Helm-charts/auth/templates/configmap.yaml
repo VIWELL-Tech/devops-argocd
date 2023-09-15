@@ -12,7 +12,7 @@ data:
   HOST: "0.0.0.0"
   DB: "TEST_viwell-auth"
   JwtIss: "viwell.com"
-  AdminHost: "portal-test.viwell.app"
+
 
 kind: ConfigMap
 metadata:
