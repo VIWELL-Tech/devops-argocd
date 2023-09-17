@@ -4,6 +4,9 @@ data:
   ENV: 'stagging'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  PORT: "3009"
+  HOST: "0.0.0.0"
+  DB: "Stagging-pillar"
 
 kind: ConfigMap
 metadata:

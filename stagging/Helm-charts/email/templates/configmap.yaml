@@ -4,6 +4,12 @@ data:
   ENV: 'stagging'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  EmailHost: "email-smtp.us-east-2.amazonaws.com"
+  EmailPort: "465"
+  EmailAccountType: "SES"
+  ENV: "stagging"
+  DB: "Stagging-email"
+  SUPPORT_EMAIL: "care@viwell.com"
 
 kind: ConfigMap
 metadata:

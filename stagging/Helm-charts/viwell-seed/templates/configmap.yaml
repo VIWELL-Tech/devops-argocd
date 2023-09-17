@@ -4,6 +4,8 @@ data:
   ENV: 'stagging'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  ENV: "stagging"
+  APP_NAME: "Stagging"
 
 kind: ConfigMap
 metadata:

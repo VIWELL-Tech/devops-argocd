@@ -8,6 +8,9 @@ data:
   USER_STORE_DB: 'Stagging-user-store'
   AdminHost: 'portal-staging.viwell.app'
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  PORT: "30024"
+  HOST: "0.0.0.0"
+  DB: "Stagging-progress"
   
 
 kind: ConfigMap

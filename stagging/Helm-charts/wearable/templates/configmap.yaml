@@ -4,6 +4,11 @@ data:
   ENV: 'stagging'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  PORT: "30040"
+  HOST: "0.0.0.0"
+  DB: "Stagging-wearable"
+  S3_Bucket: "viwell-stagging"
+  S3_Region: "us-east-1"
 
 kind: ConfigMap
 metadata:

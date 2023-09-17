@@ -1,9 +1,13 @@
 apiVersion: v1
 data:
-  VAR: 'INPUT'
-  ENV: 'stagging'
-  SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
-  SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  VAR: "INPUT"
+  ENV: "stagging"
+  SEND_DELETE_COLLECTION_CATEGORY: "send_delete_collection_category"
+  SEND_UPDATE_CLIENT_EVENT: "send_update_client_event"
+  PORT: "30016"
+  HOST: "0.0.0.0"
+  NODE_ENV: "false"
+  DB: "Stagging-logger"
 
 kind: ConfigMap
 metadata:
