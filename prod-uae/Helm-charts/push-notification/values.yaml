@@ -1,6 +1,6 @@
 name: push-notification
 replicaCount: 1
-AppVersion: prod-348622d
+AppVersion: prod-stagging-348622d-41
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/push-notification
