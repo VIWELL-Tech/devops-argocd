@@ -6,3 +6,6 @@ kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
   namespace: {{ .Values.namespace }}
+data:
+  DB: "viwell-favorite"
+  
