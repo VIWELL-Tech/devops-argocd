@@ -9,6 +9,7 @@ data:
   AdminHost: "portal-staging.viwell.app"
   JwtIss: "viwell.app"
   DB: "Stagging-auth"
+  USER_STORE_DB: "Stagging-user-store"
 
 kind: ConfigMap
 metadata:
