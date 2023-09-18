@@ -5,3 +5,11 @@ kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
   namespace: {{ .Values.namespace }}
+data:
+  DB: "viwell-media"
+  KSA_OBJECT_STORAGE_REGION: "me-jeddah-1"
+  GLOBAL_OBJECT_STORAGE_REGION: "me-central-1"
+  S3_Region: "me-central-1"
+  
+  
+  
