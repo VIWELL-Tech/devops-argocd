@@ -8,6 +8,7 @@ data:
   HOST: "0.0.0.0"
   NODE_ENV: "false"
   DB: "Stagging-organization"
+  USER_STORE_DB: "Stagging-user-store"
 
 kind: ConfigMap
 metadata:
