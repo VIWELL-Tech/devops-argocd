@@ -1,6 +1,16 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  PORT: "30043"
+  HOST: "0.0.0.0"
+  DB: "viwell-reward-partner"
+  S3_Bucket: "production-viwell-media"
+  S3_Region: "me-central-1"
+  GLOBAL_OBJECT_STORAGE_BUCKET_NAME: "production-viwell-media"
+  GLOBAL_OBJECT_STORAGE_REGION: "me-central-1"
+  KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: "axzsfqzecwcx"
+  KSA_OBJECT_STORAGE_BUCKET_NAME: "bucket-20230524-1613"
+  KSA_OBJECT_STORAGE_REGION: "me-jeddah-1"
 
 kind: ConfigMap
 metadata:

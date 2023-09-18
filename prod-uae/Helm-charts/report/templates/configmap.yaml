@@ -1,7 +1,10 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-
+  PORT: "30026"
+  HOST: "0.0.0.0"
+  DB: "viwell-report"
+  
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
