@@ -1,6 +1,6 @@
 name: tag
 replicaCount: 1
-AppVersion: '4637edd'
+AppVersion: "dev-4637edd-35"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/tag
