@@ -1,6 +1,6 @@
 name: avatar
 replicaCount: 1
-AppVersion: 'f93a167'
+AppVersion: "dev-f93a167-37"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/avatar
