@@ -1,5 +1,5 @@
 apiVersion: v2
-name: activity
+name: metrics-aggregator
 description: A Helm chart for Kubernetes
 
 type: application
