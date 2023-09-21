@@ -1,8 +1,8 @@
-name: activity
+name: metrics-presenter
 replicaCount: 1
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/activity
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/metrics-presenter
   pullPolicy: Always
   tag: ""
 
@@ -13,8 +13,8 @@ podSecurityContext: {}
 
 service:
   type: NodePort
-  port: 30020
-  targetport: 30020
+  port: 30031
+  targetport: 30031
 
 # resources: 
 #   requests:
@@ -30,6 +30,6 @@ namespace: "dev"
   
 ##for liveness and readiness
 path: "/health"
-port: 30020
+port: 30031
 
 
