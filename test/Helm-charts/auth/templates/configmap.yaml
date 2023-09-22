@@ -11,7 +11,7 @@ data:
   PORT: "3001"
   HOST: "0.0.0.0"
   DB: "TEST_viwell-auth"
-  JwtIss: "viwell.com"
+  JwtIss: "viwell.app"
 
 
 kind: ConfigMap
