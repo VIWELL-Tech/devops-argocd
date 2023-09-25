@@ -17,6 +17,7 @@ data:
   OrgId: "779485866"
   DepartmentId: "730549000000820185"
   ZohoClientId: "1000.M6DGGY0Q49ZI1MC8UTPBFIUFH3XF3P"
+  SUPPORT_EMAIL: "care@viwell.com"
 
 kind: ConfigMap
 metadata:
