@@ -12,7 +12,6 @@ data:
   EmailHost: "email-smtp.us-east-2.amazonaws.com"
   EmailPort: "465"
   EmailAccountType: "SES"
-  ENV: "dev"
   DB: "dev_b_email"
   SUPPORT_EMAIL: "care@viwell.com"
   OrgId: "779485866"
