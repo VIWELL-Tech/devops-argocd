@@ -9,6 +9,7 @@ data:
   SEND_DELETE_COLLECTION_CATEGORY: "send_delete_collection_category"
   SEND_UPDATE_CLIENT_EVENT: "send_update_client_event"
   VAR: "INPUT"
+  APP_NAME: "ksa-dev-viwell"
 
 kind: ConfigMap
 metadata:
