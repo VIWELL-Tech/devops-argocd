@@ -2,6 +2,24 @@ apiVersion: v1
 data:
   VAR: 'INPUT'
   ENV: 'ksa-dev'
+  AdminHost: 'portal-dev-b.viwell.app'
+  RabbitTimeout: '10000'
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  USER_STORE_DB: 'viwell-user-store'
+  SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
+  SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  VAR: 'INPUT'
+  PORT: '3005'
+  HOST: '0.0.0.0'
+  DB: 'dev_b_media'
+  S3_Bucket: 'image-resize-dev-814880204573-us-east-1'
+  S3_Region: 'us-east-1'
+  GLOBAL_OBJECT_STORAGE_BUCKET_NAME: 'image-resize-dev-814880204573-us-east-1'
+  GLOBAL_OBJECT_STORAGE_REGION: 'us-east-1'
+  KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: 'axzsfqzecwcx'
+  KSA_OBJECT_STORAGE_BUCKET_NAME: 'bucket-20230524-1613'
+  KSA_OBJECT_STORAGE_REGION: 'me-jeddah-1'
+  
 
 kind: ConfigMap
 metadata:
