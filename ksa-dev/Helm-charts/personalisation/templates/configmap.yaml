@@ -11,7 +11,7 @@ data:
   VAR: 'INPUT'
   PORT: '30027'
   HOST: '0.0.0.0'
-  DB: 'dev_b_personalisation'
+  DB: 'dev_b_personalization'
   
 
 kind: ConfigMap
