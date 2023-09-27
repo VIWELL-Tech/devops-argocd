@@ -20,19 +20,13 @@ spec:
         - name: {{ .Values.name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           envFrom:
+            - configMapRef:
+                name: {{ .Values.name }}          
             - secretRef:
                 name: {{ .Values.name }}
             - secretRef:
                 name: common
-            - configMapRef:
-                name: {{ .Values.name }}
 
 
 
-      - envFrom:
-        - secretRef:
-            name: {{ .Values.name }}
-        - configMapRef:
-            name: {{ .Values.name }}
-        - secretRef:
-            name: common
+    
