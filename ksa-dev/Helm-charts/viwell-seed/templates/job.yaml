@@ -24,3 +24,15 @@ spec:
                 name: {{ .Values.name }}
             - secretRef:
                 name: common
+            - configMapRef:
+                name: {{ .Values.name }}
+
+
+
+      - envFrom:
+        - secretRef:
+            name: {{ .Values.name }}
+        - configMapRef:
+            name: {{ .Values.name }}
+        - secretRef:
+            name: common
