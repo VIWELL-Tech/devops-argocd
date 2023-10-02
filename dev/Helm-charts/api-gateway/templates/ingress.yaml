@@ -17,22 +17,14 @@ metadata:
         more_set_headers "Cache-Control must-revalidate";  
         more_set_headers "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload";
         more_set_headers "Content-Security-Policy: default-src 'self';" always;
+        more_set_headers "Referrer-Policy: strict-origin";
+        more_set_headers "Permissions-Policy: camera=(), microphone=()";
     nginx.org/client-max-body-size: "0"
     nginx.ingress.kubernetes.io/enable-gzip: "true"
     nginx.ingress.kubernetes.io/gzip-encoding: "deflate"
   name: {{ .Values.name }}
 spec:
   rules:
-  - host: api-dev.viwell.com
-    http:
-      paths:
-      - backend:
-          service:
-            name: {{ .Values.name }}
-            port:
-              number: {{ .Values.port }}
-        path: /
-        pathType: ImplementationSpecific
   - host: api-dev.viwell.app
     http:
       paths:
