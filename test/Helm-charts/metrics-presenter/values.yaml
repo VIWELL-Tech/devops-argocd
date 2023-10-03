@@ -1,4 +1,4 @@
-name: presenter
+name: metrics-presenter
 replicaCount: 1
 
 image:
