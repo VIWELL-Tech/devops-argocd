@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  SQL_DB_NAME: "test_aggregates"
+  SQL_DB_NAME: "aggregates"
   ENV: "test"
 
 kind: ConfigMap
