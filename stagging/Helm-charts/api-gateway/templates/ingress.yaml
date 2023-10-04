@@ -9,14 +9,16 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     nginx.ingress.kubernetes.io/configuration-snippet: |
-        more_set_headers "X-Frame-Options: Deny";
-        more_set_headers "X-Xss-Protection: 1; mode=block";
-        more_set_headers "X-Content-Type-Options: nosniff";
-        more_clear_headers "Cache-Control";
-        more_clear_headers "Server";
-        more_set_headers "Cache-Control must-revalidate";  
-        more_set_headers "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload";
-        more_set_headers "Content-Security-Policy: default-src 'self';" always;
+      more_set_headers "X-Frame-Options: Deny";
+      more_set_headers "X-Xss-Protection: 1; mode=block";
+      more_set_headers "X-Content-Type-Options: nosniff";
+      more_clear_headers "Cache-Control";
+      more_clear_headers "Server";
+      more_set_headers "Cache-Control: must-revalidate";
+      more_set_headers "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload";
+      more_set_headers "Content-Security-Policy: default-src 'self' connect-src 'self' https://api-dev.viwell.app/graphql;";
+      more_set_headers "Referrer-Policy: strict-origin";
+      more_set_headers "Permissions-Policy: camera=(), microphone=()";
     nginx.org/client-max-body-size: "0"
     nginx.ingress.kubernetes.io/enable-gzip: 'true'
     nginx.ingress.kubernetes.io/gzip-encoding: deflate    
