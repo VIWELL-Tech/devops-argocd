@@ -1,6 +1,6 @@
 name: activity
 replicaCount: 1
-AppVersion: "dev-c9391cb-245"
+AppVersion: "dev-7a844ab-246"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/activity
