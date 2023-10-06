@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  SQL_DB_NAME: "dev-aggregates"
+  SQL_DB_NAME: "dev_aggregates"
   ENV: "dev"
 
 kind: ConfigMap
