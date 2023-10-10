@@ -1,6 +1,6 @@
 name: auth
 replicaCount: 1
-AppVersion: "dev-bc4841c-399"
+AppVersion: "dev-2dad0a8-400"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/auth
