@@ -15,6 +15,7 @@ data:
   S3_Region: 'us-east-1'
   THRYVE_AppID: '5QlBLJl4Hwz7M4Xi'
   THRYVE_ApiUrl: 'https://api.und-gesund.de/v5/'
+  MANUAL_ENTRY_ENABLED: true 
 
 kind: ConfigMap
 metadata:
