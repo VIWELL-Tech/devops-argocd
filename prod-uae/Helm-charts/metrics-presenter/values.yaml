@@ -2,7 +2,7 @@ name: presenter
 replicaCount: 1
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/presenter
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/presenter
   pullPolicy: Always
   tag: ""
 
@@ -26,7 +26,7 @@ autoscaling:
   minReplicas: 1
   maxReplicas: 3
   targetCPUUtilizationPercentage:   
-namespace: "stagging"
+namespace: "prod"
   
 ##for liveness and readiness
 path: "/health"
