@@ -1,6 +1,6 @@
 name: content
 replicaCount: 1
-AppVersion: "stagging-08f1d6c-78"
+AppVersion: "stagging-08f1d6c-79"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/content
