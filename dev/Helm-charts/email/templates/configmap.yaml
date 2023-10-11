@@ -21,6 +21,7 @@ data:
   KSA_GLOBAL_OBJECT_STORAGE_REGION: "us-east-1"
   GLOBAL_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-dev"
   GLOBAL_OBJECT_STORAGE_REGION: "us-east-1"
+  KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: "viwell-email-templates-dev"
 
 kind: ConfigMap
 metadata:
