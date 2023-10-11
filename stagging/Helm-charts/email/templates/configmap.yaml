@@ -10,6 +10,11 @@ data:
   ENV: "stagging"
   DB: "Stagging-email"
   SUPPORT_EMAIL: "care@viwell.com"
+  KSA_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-staging"
+  KSA_OBJECT_STORAGE_REGION: "us-east-1"
+  GLOBAL_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-staging"
+  GLOBAL_OBJECT_STORAGE_REGION: "us-east-1"
+  KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: "viwell-email-templates-staging"
 
 kind: ConfigMap
 metadata:
