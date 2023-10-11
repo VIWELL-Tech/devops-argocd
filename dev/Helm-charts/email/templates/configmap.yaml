@@ -17,8 +17,8 @@ data:
   OrgId: "779485866"
   DepartmentId: "730549000000820185"
   ZohoClientId: "1000.M6DGGY0Q49ZI1MC8UTPBFIUFH3XF3P"
-  GLOBAL_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-dev"
-  GLOBAL_OBJECT_STORAGE_REGION: "us-east-1"
+  KSA_GLOBAL_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-dev"
+  KSA_GLOBAL_OBJECT_STORAGE_REGION: "us-east-1"
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
