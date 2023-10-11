@@ -1,6 +1,6 @@
 name: email
 replicaCount: 1
-AppVersion: "dev-571c038-72"
+AppVersion: "dev-571c038-73"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/email
