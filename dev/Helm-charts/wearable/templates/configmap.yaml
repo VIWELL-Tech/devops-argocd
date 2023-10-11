@@ -17,7 +17,7 @@ data:
   ContentType: 'application/x-www-form-urlencoded'
   AppID: '8DlPLJh4HTz7K5la'
   THRYVE_AppID: 'I3cyPnMYglAiW4As'
-  MANUAL_ENTRY_ENABLED: true 
+  MANUAL_ENTRY_ENABLED: true
 
 
 kind: ConfigMap
