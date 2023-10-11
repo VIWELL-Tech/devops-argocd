@@ -16,6 +16,11 @@ data:
   SUPPORT_EMAIL: "care@viwell.com"
   OrgId: "779485866"
   DepartmentId: "730549000000820185"
+  KSA_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-test"
+  KSA_OBJECT_STORAGE_REGION: "us-east-1"
+  GLOBAL_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-test"
+  GLOBAL_OBJECT_STORAGE_REGION: "us-east-1"
+  KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: "viwell-email-templates-test"
 
 kind: ConfigMap
 metadata:
