@@ -1,6 +1,6 @@
 name: notification
 replicaCount: 1
-AppVersion: "test-abdc237-70"
+AppVersion: "test-abdc237-71"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/notification
