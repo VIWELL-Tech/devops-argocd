@@ -1,6 +1,6 @@
 name: wearable
 replicaCount: 1
-AppVersion: "dev-3d9bf8c-122"
+AppVersion: "dev-1aa34d5-123"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/wearable
