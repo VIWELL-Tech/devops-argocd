@@ -14,6 +14,8 @@ spec:
       labels:
         app: {{ .Values.name }}
         version: "{{ .Values.AppVersion }}"
+      annotations:
+       sidecar.istio.io/inject: "false"
     spec:
       restartPolicy: Never
       containers:
