@@ -12,7 +12,6 @@ data:
   PORT: "3001"
   HOST: "0.0.0.0"
   DB: "dev_b_auth"
-  AdminHost: "portal-dev.viwell.app"
   JwtIss: "viwell.app"
 
 kind: ConfigMap
