@@ -1,6 +1,6 @@
 name: push-notification
 replicaCount: 1
-AppVersion: "ksa-dev-26862ff-8"
+AppVersion: "ksa-dev-26862ff-9"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/push-notification
