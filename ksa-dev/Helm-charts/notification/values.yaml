@@ -1,6 +1,6 @@
 name: notification
 replicaCount: 1
-AppVersion: "ksa-dev-a0b3599-9"
+AppVersion: "ksa-dev-a0b3599-10"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/notification
