@@ -1,6 +1,6 @@
 name: general
 replicaCount: 1
-AppVersion: "ksa-dev-35ccf27-9"
+AppVersion: "ksa-dev-35ccf27-10"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/general
