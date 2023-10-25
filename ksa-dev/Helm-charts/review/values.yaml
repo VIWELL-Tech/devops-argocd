@@ -1,6 +1,6 @@
 name: review
 replicaCount: 1
-AppVersion: "ksa-dev-a404f2c-7"
+AppVersion: "ksa-dev-a404f2c-8"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/review
