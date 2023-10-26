@@ -1,6 +1,6 @@
 name: logger
 replicaCount: 1
-AppVersion: "ksa-dev-a01e80e-11"
+AppVersion: "ksa-dev-e11ab70-12"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/logger
