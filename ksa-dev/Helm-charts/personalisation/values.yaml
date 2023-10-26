@@ -1,6 +1,6 @@
 name: personalisation
 replicaCount: 1
-AppVersion: "ksa-dev-3756d81-14"
+AppVersion: "ksa-dev-3756d81-15"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/personalisation
