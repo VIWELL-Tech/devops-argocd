@@ -1,6 +1,6 @@
 name: content
 replicaCount: 1
-AppVersion: "ksa-dev-c928c7b-15"
+AppVersion: "ksa-dev-c928c7b-16"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/content
