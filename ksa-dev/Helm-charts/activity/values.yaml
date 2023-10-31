@@ -1,6 +1,6 @@
 name: activity
 replicaCount: 1
-AppVersion: "ksa-dev-bfea46c-19"
+AppVersion: "ksa-dev-bfea46c-20"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/activity
