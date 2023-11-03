@@ -11,6 +11,7 @@ data:
   PORT: '30030'
   HOST: '0.0.0.0'
   DB: 'viwell-reward'
+  SEND_UPDATE_CLIENT_EVENT: "dev_send_update_client_event"
 
 kind: ConfigMap
 metadata:

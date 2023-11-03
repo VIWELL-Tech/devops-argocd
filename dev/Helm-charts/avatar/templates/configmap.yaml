@@ -11,6 +11,8 @@ data:
   PORT: '30012'
   HOST: '0.0.0.0'
   DB: 'viwell-avatar'
+  SEND_DEACTIVATE_AVATAR_EVENT: "dev_send_deactivate_avatar_event"
+  SEND_UPDATE_AVATAR_EVENT: "dev_send_update_avatar_event"
 
 kind: ConfigMap
 metadata:

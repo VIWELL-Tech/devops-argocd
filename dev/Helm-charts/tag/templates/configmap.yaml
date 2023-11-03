@@ -11,6 +11,7 @@ data:
   PORT: '30011'
   HOST: '0.0.0.0'
   DB: 'viwell-tag'
+  SEND_UPDATE_TAG_EVENT: "dev_send_update_tag_event"
 
 kind: ConfigMap
 metadata:

@@ -11,6 +11,16 @@ data:
   PORT: '3007'
   HOST: '0.0.0.0'
   DB: 'viwell-content'
+  SEND_UPDATE_CATEGORY_EVENT: "dev_send_update_category_event"
+  SEND_DELETE_COLLECTION_CATEGORY: "dev_send_delete_collection_category"
+  CONTENT_UPDATED_EVENT: "dev_content_updated"
+  COLLECTION_UPDATED_EVENT: "dev_collection_updated"
+  SEND_UPDATE_PILLAR_EVENT: "dev_send_update_pillar_event"
+  SEND_DEACTIVATE_PILLAR_EVENT: "dev_send_deactivate_pillar_event"
+  TOGGLE_CONTENT_STATUS_EVENT: "dev_toggle_content_status"
+  SEND_UPDATE_TAG_EVENT: "dev_send_update_tag_event"
+  SEND_UPDATE_CREATOR_EVENT: "dev_send_update_creator_event"
+  SEND_DEACTIVATE_CREATOR_EVENT: "dev_send_deactivate_creator_event"
 
 kind: ConfigMap
 metadata:

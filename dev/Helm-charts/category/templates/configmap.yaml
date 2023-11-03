@@ -11,6 +11,10 @@ data:
   PORT: '30010'
   HOST: '0.0.0.0'
   DB: 'viwell-category'
+  SEND_UPDATE_CATEGORY_EVENT: "dev_send_update_category_event"
+  SEND_DELETE_COLLECTION_CATEGORY: "dev_send_delete_collection_category"
+  SEND_UPDATE_PILLAR_EVENT: "dev_send_update_pillar_event"
+  SEND_DEACTIVATE_PILLAR_EVENT: "dev_send_deactivate_pillar_event"
 
 kind: ConfigMap
 metadata:

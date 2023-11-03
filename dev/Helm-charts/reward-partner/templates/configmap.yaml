@@ -19,6 +19,8 @@ data:
   KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: "axzsfqzecwcx"
   KSA_OBJECT_STORAGE_BUCKET_NAME: "bucket-20230524-1613"
   KSA_OBJECT_STORAGE_REGION: "me-jeddah-1"
+  SEND_TIER_UPDATE_EVENT: "dev_send_tier_update"
+  
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}

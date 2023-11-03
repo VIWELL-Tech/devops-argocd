@@ -13,7 +13,11 @@ data:
   DB: "viwell-auth"
   AdminHost: "portal-dev.viwell.app"
   JwtIss: "viwell.com"
-  
+  SEND_DEACTIVATE_AVATAR_EVENT: "dev_send_deactivate_avatar_event"
+  SEND_UPDATE_AVATAR_EVENT: "dev_send_update_avatar_event"
+  SEND_UPDATE_CLIENT_EVENT: "dev_send_update_client_event"
+  USER_DELETED_EVENT: "dev_user_deleted"
+  EMPLOYEE_PROFILE_COMPLETED_EVENT: "dev_employee_profile_completed"
 
 kind: ConfigMap
 metadata:
