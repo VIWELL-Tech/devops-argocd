@@ -1,6 +1,6 @@
 name: api-gateway
 replicaCount: 2
-AppVersion: "dev-038d3cd-163"
+AppVersion: "dev-038d3cd-164"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/api-gateway
