@@ -7,7 +7,8 @@ data:
   PORT: "30011"
   HOST: "0.0.0.0"
   DB: "Stagging-tag"
-
+  SEND_UPDATE_TAG_EVENT: "staging_send_update_tag_event"
+  
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}

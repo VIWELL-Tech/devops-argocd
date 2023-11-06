@@ -7,6 +7,7 @@ data:
   PORT: "30015"
   HOST: "0.0.0.0"
   DB: "Stagging-favorite"
+  CONTENT_UPDATED_EVENT: "staging_content_updated"
 
 kind: ConfigMap
 metadata:

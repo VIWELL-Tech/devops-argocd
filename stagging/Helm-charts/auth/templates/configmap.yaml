@@ -10,6 +10,11 @@ data:
   JwtIss: "viwell.app"
   DB: "Stagging-auth"
   USER_STORE_DB: "Stagging-user-store"
+  SEND_DEACTIVATE_AVATAR_EVENT: "staging_send_deactivate_avatar_event"
+  SEND_UPDATE_AVATAR_EVENT: "staging_send_update_avatar_event"
+  SEND_UPDATE_CLIENT_EVENT: "staging_send_update_client_event"
+  USER_DELETED_EVENT: "staging_user_deleted"
+  EMPLOYEE_PROFILE_COMPLETED_EVENT: "staging_employee_profile_completed"
 
 kind: ConfigMap
 metadata:

@@ -9,6 +9,7 @@ data:
   NODE_ENV: "false"
   DB: "Stagging-organization"
   USER_STORE_DB: "Stagging-user-store"
+  SEND_UPDATE_CLIENT_EVENT: "staging_send_update_client_event"
 
 kind: ConfigMap
 metadata:

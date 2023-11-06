@@ -7,6 +7,9 @@ data:
   PORT: "30027"
   HOST: "0.0.0.0"
   DB: "Stagging-personalisation"
+  ON_BOARDING_ASSESSMENT_COMPLETE_EVENT: "staging_on_boarding_assessment_complete"
+  VIWELL_ASSESSMENT_COMPLETE_EVENT: "staging_viwell_assessment_complete"
+  CHECKIN_DONE_EVENT: "staging_checkin_done"
 
 kind: ConfigMap
 metadata:

@@ -7,6 +7,16 @@ data:
   PORT: "3007"
   HOST: "0.0.0.0"
   DB: "Stagging-content"
+  SEND_UPDATE_CATEGORY_EVENT: "staging_send_update_category_event"
+  SEND_DELETE_COLLECTION_CATEGORY: "staging_send_delete_collection_category"
+  CONTENT_UPDATED_EVENT: "staging_content_updated"
+  COLLECTION_UPDATED_EVENT: "staging_collection_updated"
+  SEND_UPDATE_PILLAR_EVENT: "staging_send_update_pillar_event"
+  SEND_DEACTIVATE_PILLAR_EVENT: "staging_send_deactivate_pillar_event"
+  TOGGLE_CONTENT_STATUS_EVENT: "staging_toggle_content_status"
+  SEND_UPDATE_TAG_EVENT: "staging_send_update_tag_event"
+  SEND_UPDATE_CREATOR_EVENT: "staging_send_update_creator_event"
+  SEND_DEACTIVATE_CREATOR_EVENT: "staging_send_deactivate_creator_event"
 
 kind: ConfigMap
 metadata:
