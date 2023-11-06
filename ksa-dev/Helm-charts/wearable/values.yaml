@@ -1,6 +1,6 @@
 name: wearable
 replicaCount: 1
-AppVersion: "ksa-dev-ec4dd4a-17"
+AppVersion: "ksa-dev-ec4dd4a-20"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/wearable
