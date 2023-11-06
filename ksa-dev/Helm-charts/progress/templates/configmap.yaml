@@ -14,6 +14,12 @@ data:
   DB: 'dev_b_progress'
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "5"
+  SEND_UPDATE_CATEGORY_EVENT: "dev_b_send_update_category_event"
+  CONTENT_UPDATED_EVENT: "dev_b_content_updated"
+  COLLECTION_UPDATED_EVENT: "dev_b_collection_updated"
+  TOGGLE_CONTENT_STATUS_EVENT: "dev_b_toggle_content_status"
+  EMPLOYEE_PROFILE_COMPLETED_EVENT: "dev_b_employee_profile_completed"
+
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}

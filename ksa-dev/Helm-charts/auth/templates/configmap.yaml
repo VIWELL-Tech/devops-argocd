@@ -15,6 +15,11 @@ data:
   JwtIss: "viwell.app"
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "5"
+  SEND_DEACTIVATE_AVATAR_EVENT: "dev_b_send_deactivate_avatar_event"
+  SEND_UPDATE_AVATAR_EVENT: "dev_b_send_update_avatar_event"
+  SEND_UPDATE_CLIENT_EVENT: "dev_b_send_update_client_event"
+  USER_DELETED_EVENT: "dev_b_user_deleted"
+  EMPLOYEE_PROFILE_COMPLETED_EVENT: "dev_b_employee_profile_completed"
 
 kind: ConfigMap
 metadata:

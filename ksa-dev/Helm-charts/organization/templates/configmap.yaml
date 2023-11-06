@@ -15,6 +15,8 @@ data:
   NODE_ENV: 'false'
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "5"
+  SEND_UPDATE_CLIENT_EVENT: "dev_b_send_update_client_event"
+
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
