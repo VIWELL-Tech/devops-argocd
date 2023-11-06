@@ -1,6 +1,6 @@
 name: general
 replicaCount: 1
-AppVersion: "dev-c5fef2c-56"
+AppVersion: "dev-c5fef2c-57"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/general
