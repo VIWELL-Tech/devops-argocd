@@ -11,6 +11,9 @@ data:
   PORT: '3009'
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-pillar'
+  SEND_UPDATE_PILLAR_EVENT: "test_send_update_pillar_event"
+  SEND_DEACTIVATE_PILLAR_EVENT: "test_send_deactivate_pillar_event"
+
 
 kind: ConfigMap
 metadata:

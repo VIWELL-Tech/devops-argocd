@@ -12,6 +12,7 @@ data:
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-organization'
   NODE_ENV: 'false'
+  SEND_UPDATE_CLIENT_EVENT: "test_send_update_client_event"  
 
 kind: ConfigMap
 metadata:

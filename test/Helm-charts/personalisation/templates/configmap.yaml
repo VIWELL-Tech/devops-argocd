@@ -11,6 +11,10 @@ data:
   PORT: '30027'
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-personalisation'
+  ON_BOARDING_ASSESSMENT_COMPLETE_EVENT: "test_on_boarding_assessment_complete"
+  VIWELL_ASSESSMENT_COMPLETE_EVENT: "test_viwell_assessment_complete"
+  CHECKIN_DONE_EVENT: "test_checkin_done"
+
 
 kind: ConfigMap
 metadata:

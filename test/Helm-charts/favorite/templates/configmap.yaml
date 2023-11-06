@@ -11,6 +11,8 @@ data:
   PORT: '30015'
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-favorite'
+  CONTENT_UPDATED_EVENT: "test_content_updated"
+  
 
 kind: ConfigMap
 metadata:

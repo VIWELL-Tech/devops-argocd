@@ -12,6 +12,12 @@ data:
   HOST: "0.0.0.0"
   DB: "TEST_viwell-auth"
   JwtIss: "viwell.app"
+  SEND_DEACTIVATE_AVATAR_EVENT: "test_send_deactivate_avatar_event"
+  SEND_UPDATE_AVATAR_EVENT: "test_send_update_avatar_event"
+  SEND_UPDATE_CLIENT_EVENT: "test_send_update_client_event"
+  USER_DELETED_EVENT: "test_user_deleted"
+  EMPLOYEE_PROFILE_COMPLETED_EVENT: "test_employee_profile_completed"
+
 
 
 kind: ConfigMap
