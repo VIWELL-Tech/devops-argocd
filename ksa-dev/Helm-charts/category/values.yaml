@@ -1,6 +1,6 @@
 name: category
 replicaCount: 1
-AppVersion: "ksa-dev-2a44f52-15"
+AppVersion: "ksa-dev-dda5622-16"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/category
