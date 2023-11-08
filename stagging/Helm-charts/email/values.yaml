@@ -1,6 +1,6 @@
 name: email
 replicaCount: 1
-AppVersion: "stagging-a7968db-46"
+AppVersion: "stagging-a7968db-47"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/email
