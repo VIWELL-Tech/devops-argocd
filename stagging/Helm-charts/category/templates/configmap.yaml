@@ -11,7 +11,8 @@ data:
   SEND_DELETE_COLLECTION_CATEGORY: "staging_send_delete_collection_category"
   SEND_UPDATE_PILLAR_EVENT: "staging_send_update_pillar_event"
   SEND_DEACTIVATE_PILLAR_EVENT: "staging_send_deactivate_pillar_event"
-
+  MIN_POOL_SIZE: "2"
+  MAX_POOL_SIZE: "2"
 
 kind: ConfigMap
 metadata:
