@@ -1,6 +1,6 @@
 name: review
 replicaCount: 1
-AppVersion: "85c1de8"
+AppVersion: "stagging-85c1de8-19"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/review
