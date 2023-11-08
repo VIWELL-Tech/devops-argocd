@@ -5,7 +5,9 @@ data:
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
   DB: "Stagging-push-notification"
-
+  MIN_POOL_SIZE: "2"
+  MAX_POOL_SIZE: "2"
+  
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
