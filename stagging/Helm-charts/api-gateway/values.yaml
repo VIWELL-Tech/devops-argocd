@@ -1,6 +1,6 @@
 name: api-gateway
 replicaCount: 2
-AppVersion: "stagging-a4e1565-49"
+AppVersion: "stagging-a4e1565-50"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/api-gateway
