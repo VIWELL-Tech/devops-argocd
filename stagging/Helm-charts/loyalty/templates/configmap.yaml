@@ -8,7 +8,7 @@ data:
   HOST: "0.0.0.0"
   DB: "Stagging-loyalty"
   MIN_POOL_SIZE: "2"
-  MAX_POOL_SIZE: "2"  
+  MAX_POOL_SIZE: "4"  
 
 kind: ConfigMap
 metadata:
