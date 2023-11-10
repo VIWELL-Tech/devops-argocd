@@ -12,6 +12,10 @@ data:
   DB: "Stagging-organization"
   USER_STORE_DB: "Stagging-user-store"
   SEND_UPDATE_CLIENT_EVENT: "staging_send_update_client_event"
+  AdminHost: 'portal-staging.viwell.app'
+  RabbitTimeout: '10000'
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  USER_STORE_DB: 'viwell-user-store'
 
 kind: ConfigMap
 metadata:
