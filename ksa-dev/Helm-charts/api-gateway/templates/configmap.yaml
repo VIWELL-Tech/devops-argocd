@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   VAR: 'INPUT'
   ENV: 'ksa-dev'
-  AdminHost: "portal-dev.viwell.app"
+  AdminHost: "portal-dev-b.viwell.app"
   RabbitTimeout: "10000"
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: "link.viwell.app"
   USER_STORE_DB: "viwell-user-store"
