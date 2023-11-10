@@ -11,7 +11,17 @@ data:
   S3_Region: "us-east-1"
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "4"
-  
+  AdminHost: 'portal-staging.viwell.app'
+  RabbitTimeout: '10000'
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  USER_STORE_DB: 'viwell-user-store'
+  S3_Bucket: 'image-resize-stagging-814880204573-us-east-1'
+  S3_Region: 'us-east-1'
+  apiUrl: 'https://api.und-gesund.de/v5/'
+  ContentType: 'application/x-www-form-urlencoded'
+  AppID: '8DlPLJh4HTz7K5la'
+  THRYVE_AppID: '8DlPLJh4HTz7K5la'
+
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
