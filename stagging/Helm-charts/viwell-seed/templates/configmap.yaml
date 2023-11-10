@@ -6,7 +6,11 @@ data:
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
   ENV: "stagging"
   APP_NAME: "Stagging"
-
+  AdminHost: "portal-staging.viwell.app"
+  RabbitTimeout: "10000"
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: "link.viwell.app"
+  USER_STORE_DB: "viwell-user-store"
+  
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
