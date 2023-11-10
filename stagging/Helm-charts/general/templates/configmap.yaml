@@ -9,6 +9,10 @@ data:
   DB: "Stagging-general"
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "4"
+  AdminHost: 'portal-staging.viwell.app'
+  RabbitTimeout: '10000'
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  USER_STORE_DB: 'viwell-user-store'
   
 kind: ConfigMap
 metadata:
