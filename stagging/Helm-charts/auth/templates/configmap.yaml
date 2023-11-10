@@ -17,6 +17,12 @@ data:
   SEND_UPDATE_CLIENT_EVENT: "staging_send_update_client_event"
   USER_DELETED_EVENT: "staging_user_deleted"
   EMPLOYEE_PROFILE_COMPLETED_EVENT: "staging_employee_profile_completed"
+  RabbitTimeout: "15000"
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: "link.viwell.app
+  USER_STORE_DB: "viwell-user-store"
+
+
+
 
 kind: ConfigMap
 metadata:
