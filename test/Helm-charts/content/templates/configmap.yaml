@@ -21,7 +21,7 @@ data:
   SEND_UPDATE_TAG_EVENT: "test_send_update_tag_event"
   SEND_UPDATE_CREATOR_EVENT: "test_send_update_creator_event"
   SEND_DEACTIVATE_CREATOR_EVENT: "test_send_deactivate_creator_event"
-
+  LOG_TOPIC: "test_log_topic"
 
 kind: ConfigMap
 metadata:
