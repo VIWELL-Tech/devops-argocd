@@ -21,7 +21,8 @@ data:
   SEND_UPDATE_TAG_EVENT: "dev_send_update_tag_event"
   SEND_UPDATE_CREATOR_EVENT: "dev_send_update_creator_event"
   SEND_DEACTIVATE_CREATOR_EVENT: "dev_send_deactivate_creator_event"
-
+  LOG_TOPIC: "dev_log_topic"
+  
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
