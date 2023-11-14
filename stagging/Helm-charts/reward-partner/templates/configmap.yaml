@@ -22,6 +22,7 @@ data:
   RabbitTimeout: '10000'
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
   USER_STORE_DB: 'viwell-user-store'
+  LOG_TOPIC: "staging_log_topic"
   
 kind: ConfigMap
 metadata:
