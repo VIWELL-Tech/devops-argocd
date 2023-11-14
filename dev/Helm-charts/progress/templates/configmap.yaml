@@ -16,7 +16,8 @@ data:
   COLLECTION_UPDATED_EVENT: "dev_collection_updated"
   TOGGLE_CONTENT_STATUS_EVENT: "dev_toggle_content_status"
   EMPLOYEE_PROFILE_COMPLETED_EVENT: "dev_employee_profile_completed"
-
+  LOG_TOPIC: "dev_log_topic"
+  
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
