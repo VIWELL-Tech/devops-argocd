@@ -19,7 +19,7 @@ data:
   EMPLOYEE_PROFILE_COMPLETED_EVENT: "staging_employee_profile_completed"
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "4"
-  LOG_TOPIC: "staging_log_topic"
+  LOG_TOPIC: "staging_topic_log"
 
 kind: ConfigMap
 metadata:
