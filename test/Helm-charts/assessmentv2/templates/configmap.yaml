@@ -11,7 +11,8 @@ data:
   PORT: '30033'
   HOST: '0.0.0.0'
   DB: 'test-viwell-assessment-v2'
-
+  LOG_TOPIC: "test_log_topic"
+  
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
