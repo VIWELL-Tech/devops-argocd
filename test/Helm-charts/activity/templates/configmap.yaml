@@ -21,4 +21,4 @@ data:
   SEND_UPDATE_CATEGORY_EVENT: "test_send_update_category_event"
   SEND_UPDATE_PILLAR_EVENT: "test_send_update_pillar_event"
   SEND_UPDATE_TAG_EVENT: "test_send_update_tag_event"
-
+  LOG_TOPIC: "dev_log_topic"
