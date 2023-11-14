@@ -23,4 +23,4 @@ data:
   SEND_UPDATE_TAG_EVENT: "staging_send_update_tag_event"
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "4"
-  LOG_TOPIC: "staging_log_topic"
+  LOG_TOPIC: "staging_topic_log"
