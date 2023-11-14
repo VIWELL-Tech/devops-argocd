@@ -43,7 +43,7 @@ spec:
           initialDelaySeconds: 30
           periodSeconds: 20
           successThreshold: 1
-          timeoutSeconds: 1       
+          timeoutSeconds: 40       
         name: {{ .Values.name }}
         ports:
         - containerPort: 30023
@@ -57,7 +57,7 @@ spec:
           initialDelaySeconds: 90
           periodSeconds: 12
           successThreshold: 1
-          timeoutSeconds: 1        
+          timeoutSeconds: 40
         resources:
           {{- toYaml .Values.resources | nindent 12 }}
 
