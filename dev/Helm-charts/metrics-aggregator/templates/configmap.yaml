@@ -3,7 +3,7 @@ data:
   VAR: "INPUT"
   SQL_DB_NAME: "dev_aggregates"
   ENV: "dev"
-  LOG_TOPIC: "staging_log_topic"
+  LOG_TOPIC: "dev_log_topic"
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
