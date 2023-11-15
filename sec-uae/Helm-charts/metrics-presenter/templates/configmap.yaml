@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  VAR: "INPUT"
+  SQL_DB_NAME: "prod_aggregates"
+  ENV: "prod"
+  SQL_DB_PORT: "5432"
+
+kind: ConfigMap
+metadata:
+  name:  {{ .Values.name }}
+  namespace: {{ .Values.namespace }}

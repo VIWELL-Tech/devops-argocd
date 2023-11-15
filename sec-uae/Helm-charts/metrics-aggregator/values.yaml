@@ -1,0 +1,35 @@
+name: metrics-aggregator
+replicaCount: 1
+
+image:
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/metrics-aggregator
+  pullPolicy: Always
+  tag: ""
+
+podAnnotations:
+  linkerd.io/inject: disabled
+
+podSecurityContext: {}
+
+service:
+  type: NodePort
+  port: 30029
+  targetport: 30029
+
+# resources: 
+#   requests:
+#     cpu: 250m
+#     memory: 128m
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage:   
+namespace: "sec"
+  
+##for liveness and readiness
+path: "/health"
+port: 30029
+
+
