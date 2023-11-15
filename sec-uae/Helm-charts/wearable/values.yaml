@@ -24,8 +24,8 @@ service:
 
 autoscaling:
   enabled: false
-  minReplicas: 1
-  maxReplicas: 3
+  minReplicas: 2
+  maxReplicas: 5
   targetCPUUtilizationPercentage:
 namespace: 'sec'
 
