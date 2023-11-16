@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   VAR: "INPUT"
   SQL_DB_NAME: "prod_aggregates"
-  ENV: "prod"
+  ENV: "sec"
   SQL_DB_PORT: "5432"
 kind: ConfigMap
 metadata:
