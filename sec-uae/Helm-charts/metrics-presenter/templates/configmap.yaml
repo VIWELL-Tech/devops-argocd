@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  SQL_DB_NAME: "aggregates-prodb"
+  SQL_DB_NAME: "aggregates-prod-b"
   ENV: "sec"
   SQL_DB_PORT: "5432"
 
