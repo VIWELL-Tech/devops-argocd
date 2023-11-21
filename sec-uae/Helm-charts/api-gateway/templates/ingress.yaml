@@ -25,7 +25,7 @@ metadata:
   name: {{ .Values.name }}
 spec:
   rules:
-  - host: api-sec.viwell.app
+  - host: api.viwell.app
     http:
       paths:
       - backend:
