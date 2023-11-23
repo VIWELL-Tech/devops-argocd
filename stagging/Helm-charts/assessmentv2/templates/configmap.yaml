@@ -6,7 +6,6 @@ data:
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
   PORT: "30033"
   HOST: "0.0.0.0"
-  DB: "stagging_assessmentv2"
   AdminHost: 'portal-staging.viwell.app'
   RabbitTimeout: '10000'
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
