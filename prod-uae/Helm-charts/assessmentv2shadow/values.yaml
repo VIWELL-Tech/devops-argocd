@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "stagging-d4bc693-141"
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/assessment-v2
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/assessment-v2
   pullPolicy: Always
   tag: ''
 
