@@ -1,6 +1,6 @@
 name: assessmentv2shadow
 replicaCount: 1
-AppVersion: stagging-d4bc693-141
+AppVersion: "stagging-d4bc693-141"
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/assessment-v2
