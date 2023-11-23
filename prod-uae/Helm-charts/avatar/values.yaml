@@ -1,6 +1,6 @@
 name: avatar
 replicaCount: 1
-AppVersion: prod-121c90f
+AppVersion: prod-stagging-121c90f-44
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/avatar
