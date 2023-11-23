@@ -10,7 +10,6 @@ data:
   VAR: 'INPUT'
   PORT: '30033'
   HOST: '0.0.0.0'
-  DB: 'viwell-assessment-v2'
   LOG_TOPIC: "dev_log_topic"
 
 kind: ConfigMap
