@@ -1,6 +1,6 @@
 name: category
 replicaCount: 1
-AppVersion: prod-stagging-0481924-38
+AppVersion: prod-stagging-85e5bfe-43
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/category
