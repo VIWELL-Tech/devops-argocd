@@ -1,6 +1,6 @@
 name: review
 replicaCount: 1
-AppVersion: "dev-2d90f88-19"
+AppVersion: "dev-fd09674-20"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/review
