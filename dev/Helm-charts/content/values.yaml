@@ -1,6 +1,6 @@
 name: content
 replicaCount: 1
-AppVersion: "dev-d4490ab-319"
+AppVersion: "dev-c9acc1f-320"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/content
