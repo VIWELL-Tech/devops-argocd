@@ -12,10 +12,6 @@ data:
   USER_STORE_DB: 'viwell-user-store'
   LOG_TOPIC: "staging_topic_log"
 
-
-  
-
-
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
