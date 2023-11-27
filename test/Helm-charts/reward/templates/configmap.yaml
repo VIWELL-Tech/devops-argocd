@@ -3,7 +3,7 @@ data:
   ENV: 'test'
  
   USER_STORE_DB: 'TEST_viwell-user-store'
-  SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
+
   VAR: 'INPUT'
   PORT: '30030'
   HOST: '0.0.0.0'
