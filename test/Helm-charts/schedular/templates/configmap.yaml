@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   ENV: 'test'
   
-  RabbitTimeout: '100000'
+
 
   USER_STORE_DB: 'TEST_viwell-user-store'
 
