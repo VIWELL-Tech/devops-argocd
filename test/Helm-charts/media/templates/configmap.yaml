@@ -14,8 +14,8 @@ data:
   S3_Bucket: 'image-resize-test-814880204573-us-east-1'
   S3_Region: 'us-east-1'
   KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: 'axzsfqzecwcx'
-  KSA_OBJECT_STORAGE_BUCKET_NAME: 'bucket-20230524-1613'
-  KSA_OBJECT_STORAGE_REGION: 'me-jeddah-1'
+  KSA_OBJECT_STORAGE_BUCKET_NAME: 'viwell-media-ksa-test'
+  KSA_OBJECT_STORAGE_REGION: 'us-east-1'
   GLOBAL_OBJECT_STORAGE_BUCKET_NAME: 'image-resize-test-814880204573-us-east-1'
   GLOBAL_OBJECT_STORAGE_REGION: 'us-east-1'
 
