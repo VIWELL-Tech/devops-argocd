@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   ENV: 'dev'
-  AdminHost: 'portal-dev.viwell.app'
+  
   RabbitTimeout: '10000'
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
   USER_STORE_DB: 'viwell-user-store'
