@@ -1,20 +1,10 @@
 apiVersion: v1
 data:
   ENV: "dev"
- 
- 
-  
-  USER_STORE_DB: "viwell-user-store"
-  SEND_DELETE_COLLECTION_CATEGORY: "send_delete_collection_category"
-  SEND_UPDATE_CLIENT_EVENT: "send_update_client_event"
   VAR: "INPUT"
-  PORT: "30020"
+  PORT: "30044"
   HOST: "0.0.0.0"
-  DB: "viwell-activity"
- 
-  SEND_UPDATE_CATEGORY_EVENT: "dev_send_update_category_event"
-  SEND_UPDATE_PILLAR_EVENT: "dev_send_update_pillar_event"
-  SEND_UPDATE_TAG_EVENT: "dev_send_update_tag_event"
+  SQL_DB_NAME: "dev_streak"
   LOG_TOPIC: "dev_log_topic"
   
 kind: ConfigMap
