@@ -4,7 +4,7 @@ data:
   VAR: "INPUT"
   PORT: "30044"
   HOST: "0.0.0.0"
-  SQL_DB_NAME: "dev_streak"
+  SQL_DB_NAME: "dev-streak"
   LOG_TOPIC: "dev_log_topic"
   
 kind: ConfigMap
