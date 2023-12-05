@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  ENV: "test"
+  VAR: "INPUT"
+  PORT: "30044"
+  HOST: "0.0.0.0"
+  SQL_DB_NAME: "test_streak"
+  LOG_TOPIC: "test_log_topic"
+  
+kind: ConfigMap
+metadata:
+  name:  {{ .Values.name }}
+  namespace: {{ .Values.namespace }}

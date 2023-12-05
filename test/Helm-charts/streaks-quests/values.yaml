@@ -1,0 +1,34 @@
+name: streaks-quests
+replicaCount: 1
+AppVersion: "test-5ae05c5-8"
+
+image:
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/streaks-quests
+  pullPolicy: IfNotPresent
+  tag: ''
+
+podAnnotations:
+  linkerd.io/inject: disabled
+
+podSecurityContext: {}
+
+service:
+  type: NodePort
+  port: 30044
+  targetport: 30044
+
+# resources:
+#   requests:
+#     cpu: 250m
+#     memory: 128m
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage:
+namespace: 'test'
+
+##for liveness and readiness
+path: '/health'
+port: 30044
