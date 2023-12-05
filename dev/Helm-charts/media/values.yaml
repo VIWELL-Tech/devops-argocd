@@ -1,6 +1,6 @@
 name: media
 replicaCount: 1
-AppVersion: "dev-528a99a-56"
+AppVersion: "dev-c7ad990-57"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/media
