@@ -1,6 +1,6 @@
 name: avatar
 replicaCount: 1
-AppVersion: "test-60ac136-35"
+AppVersion: "test-154a520-36"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/avatar
