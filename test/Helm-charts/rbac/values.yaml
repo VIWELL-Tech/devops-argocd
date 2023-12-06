@@ -1,6 +1,6 @@
 name: rbac
 replicaCount: 1
-AppVersion: "test-4cfff55-41"
+AppVersion: "test-54dd4b5-42"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/rbac
