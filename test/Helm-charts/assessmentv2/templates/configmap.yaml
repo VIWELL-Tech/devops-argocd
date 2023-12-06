@@ -7,7 +7,7 @@ data:
   VAR: 'INPUT'
   PORT: '30033'
   HOST: '0.0.0.0'
-  LOG_TOPIC: "test_log_topic"
+  LOG_TOPIC: "test_logs_snappy"
   
 kind: ConfigMap
 metadata:
