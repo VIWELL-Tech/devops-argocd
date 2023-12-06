@@ -1,6 +1,6 @@
 name: push-notification
 replicaCount: 1
-AppVersion: "test-7b53e55-77"
+AppVersion: "test-3bfbffc-82"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/push-notification
