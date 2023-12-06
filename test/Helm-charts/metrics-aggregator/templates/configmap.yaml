@@ -3,8 +3,9 @@ data:
   VAR: "INPUT"
   SQL_DB_NAME: "test_aggregates"
   ENV: "test"
-  LOG_TOPIC: "test_log_topic"
+  LOG_TOPIC: "test_logs_snappy"  
   KAFKA_CONSUMER_GROUP_ID: "test_aggregates"
+  
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
