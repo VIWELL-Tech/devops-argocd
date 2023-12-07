@@ -1,6 +1,6 @@
 name: auth
 replicaCount: 1
-AppVersion: "stagging-43607e7-117"
+AppVersion: "stagging-0b27df5-118"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/auth
