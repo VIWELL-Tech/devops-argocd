@@ -3,7 +3,7 @@ data:
   VAR: "INPUT"
   SQL_DB_NAME: "test_aggregates"
   ENV: "test"
-  LOG_TOPIC: "test_logs_snappy"  
+  LOG_TOPIC: "test_log_topic"  
   KAFKA_CONSUMER_GROUP_ID: "test_aggregates"
   
 kind: ConfigMap
