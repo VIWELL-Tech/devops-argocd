@@ -4,7 +4,7 @@ data:
   SQL_DB_NAME: "test_aggregates"
   ENV: "test"
   LOG_TOPIC: "test_log_topic"  
-  KAFKA_CONSUMER_GROUP_ID: "test_aggregates_1"
+  KAFKA_CONSUMER_GROUP_ID: "test_aggregates_2"
   
 kind: ConfigMap
 metadata:
