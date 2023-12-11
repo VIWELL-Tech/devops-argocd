@@ -6,5 +6,4 @@ type: application
 
 version: 0.1.0
 
-appVersion: prod-12c371a
-
+appVersion: prod-stagging-c815d5d-37
