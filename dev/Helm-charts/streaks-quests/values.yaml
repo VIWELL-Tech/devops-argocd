@@ -1,6 +1,6 @@
 name: streaks-quests
 replicaCount: 1
-AppVersion: "dev-42f7860-11"
+AppVersion: "dev-554a05b-12"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/streaks-quests
