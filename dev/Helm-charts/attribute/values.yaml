@@ -1,8 +1,8 @@
-name: presenter
+name: attribute
 replicaCount: 1
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/presenter
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/attribute
   pullPolicy: Always
   tag: ""
 
@@ -13,8 +13,8 @@ podSecurityContext: {}
 
 service:
   type: NodePort
-  port: 30031
-  targetport: 30031
+  port: 30032
+  targetport: 30032
 
 # resources: 
 #   requests:
@@ -30,6 +30,6 @@ namespace: "dev"
   
 ##for liveness and readiness
 path: "/health"
-port: 30031
+port: 30032
 
 
