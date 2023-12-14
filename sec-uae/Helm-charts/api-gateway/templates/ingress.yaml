@@ -18,14 +18,14 @@ metadata:
       more_clear_headers "Server";
       more_set_headers "Cache-Control: must-revalidate";
       more_set_headers "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload";
-      more_set_headers "Content-Security-Policy: default-src 'self' connect-src 'self' https://api.viwell.app/graphql;";
+      more_set_headers "Content-Security-Policy: default-src 'self' connect-src 'self' https://api-sec.viwell.app/graphql;";
       more_set_headers "Referrer-Policy: strict-origin";
       more_set_headers "Permissions-Policy: camera=(), microphone=()";
     nginx.org/client-max-body-size: "0"
   name: {{ .Values.name }}
 spec:
   rules:
-  - host: api.viwell.app
+  - host: api-sec.viwell.app
     http:
       paths:
       - backend:
