@@ -1,6 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
+  LOG_TOPIC: "prod_topic_log"
 
 kind: ConfigMap
 metadata:
