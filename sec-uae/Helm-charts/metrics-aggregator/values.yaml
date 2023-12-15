@@ -1,5 +1,5 @@
 name: metrics-aggregator
-replicaCount: 2
+replicaCount: 1
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/metrics-aggregator
