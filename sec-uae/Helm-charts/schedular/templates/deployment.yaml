@@ -38,10 +38,10 @@ spec:
             path: {{ .Values.path }}
             port: {{ .Values.port }}
             scheme: HTTP
-          initialDelaySeconds: 10
-          periodSeconds: 5
+          initialDelaySeconds: 30
+          periodSeconds: 20
           successThreshold: 1
-          timeoutSeconds: 1
+          timeoutSeconds: 40       
         name: {{ .Values.name }}
         ports:
         - containerPort: 30023
@@ -52,10 +52,10 @@ spec:
             path: {{ .Values.path }}
             port: {{ .Values.port }}
             scheme: HTTP
-          initialDelaySeconds: 60
-          periodSeconds: 3
+          initialDelaySeconds: 90
+          periodSeconds: 12
           successThreshold: 1
-          timeoutSeconds: 1
+          timeoutSeconds: 40
         resources:
           {{- toYaml .Values.resources | nindent 12 }}
 
