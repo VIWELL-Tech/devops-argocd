@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  SQL_DB_NAME: "prod_aggregates"
+  SQL_DB_NAME: "staging_aggregates"
   ENV: "prod"
   SQL_DB_PORT: "5432"
 
