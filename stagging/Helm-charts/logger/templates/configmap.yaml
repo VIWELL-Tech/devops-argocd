@@ -14,6 +14,7 @@ data:
   DB: "Stagging-logger"
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "4"
+  LOG_TOPIC: "staging_topic_log"
   
 kind: ConfigMap
 metadata:
