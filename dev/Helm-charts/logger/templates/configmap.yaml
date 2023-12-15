@@ -12,6 +12,7 @@ data:
   HOST: '0.0.0.0'
   DB: 'viwell-logger'
   NODE_ENV: 'false'
+  LOG_TOPIC: "dev_log_topic"
 
 kind: ConfigMap
 metadata:
