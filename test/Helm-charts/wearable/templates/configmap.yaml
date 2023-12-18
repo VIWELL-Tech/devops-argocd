@@ -15,7 +15,13 @@ data:
   S3_Region: 'us-east-1'
   THRYVE_AppID: '5QlBLJl4Hwz7M4Xi'
   THRYVE_ApiUrl: 'https://api.und-gesund.de/v5/'
-  MANUAL_ENTRY_ENABLED: true 
+  MANUAL_ENTRY_ENABLED: 'true'
+  KAFKA_DYNAMIC_NOTIFICATION: 'test_dynamic_notification'
+  KAFKA_SAVE_DYNAMIC_NOTIFICATION: 'test_save_dynamic_notification'
+  KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'test_daily_dynamic_notification'
+  KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_save_daily_dynamic_notification'
+
+  
 
 kind: ConfigMap
 metadata:
