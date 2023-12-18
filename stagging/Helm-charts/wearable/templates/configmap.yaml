@@ -21,6 +21,10 @@ data:
   ContentType: 'application/x-www-form-urlencoded'
   AppID: '8DlPLJh4HTz7K5la'
   THRYVE_AppID: '8DlPLJh4HTz7K5la'
+  KAFKA_DYNAMIC_NOTIFICATION: 'staging_dynamic_notification'
+  KAFKA_SAVE_DYNAMIC_NOTIFICATION: 'staging_save_dynamic_notification'
+  KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'staging_daily_dynamic_notification'
+  KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'staging_save_daily_dynamic_notification'
 
 kind: ConfigMap
 metadata:
