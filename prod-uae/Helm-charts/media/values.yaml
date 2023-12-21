@@ -1,6 +1,6 @@
 name: media
 replicaCount: 1
-AppVersion: prod-stagging-d739be1-29
+AppVersion: prod-stagging-73b5dfb-34
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/media
