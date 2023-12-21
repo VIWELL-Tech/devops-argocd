@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  SQL_DB_NAME: "attribute"
+  SQL_DB_NAME: "prod_attribute"
   ENV: "prod"
 
 kind: ConfigMap
