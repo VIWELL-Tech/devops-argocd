@@ -1,6 +1,6 @@
 name: assessment-v2
 replicaCount: 1
-AppVersion: "test-5d2f95b-129"
+AppVersion: "test-ae064cb-130"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/assessment-v2
