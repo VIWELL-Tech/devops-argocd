@@ -27,7 +27,7 @@ autoscaling:
   minReplicas: 1
   maxReplicas: 3
   targetCPUUtilizationPercentage:
-namespace: 'dev'
+namespace: 'stagging'
 
 ##for liveness and readiness
 path: '/health'
