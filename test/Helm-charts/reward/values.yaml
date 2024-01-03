@@ -1,6 +1,6 @@
 name: reward
 replicaCount: 1
-AppVersion: "test-c123786-44"
+AppVersion: "test-c123786-43"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/reward
