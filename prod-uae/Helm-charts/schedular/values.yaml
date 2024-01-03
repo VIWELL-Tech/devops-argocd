@@ -1,5 +1,5 @@
 name: schedular
-replicaCount: 1
+replicaCount: 2
 AppVersion: prod-stagging-0262d21-47
 
 image:
