@@ -1,8 +1,8 @@
-name: metrics-aggregator
+name: streaks-quests
 replicaCount: 1
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/metrics-aggregator
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/streaks-quests
   pullPolicy: Always
   tag: ""
 
