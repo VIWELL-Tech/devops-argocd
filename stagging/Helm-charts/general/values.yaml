@@ -1,6 +1,6 @@
 name: general
 replicaCount: 1
-AppVersion: "stagging-cd0909a-34"
+AppVersion: "stagging-0fa2eae-35"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/general
