@@ -1,6 +1,6 @@
 name: booking
 replicaCount: 1
-AppVersion: "stagging-e57b8b4-50"
+AppVersion: "stagging-f502b4c-53"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/booking
