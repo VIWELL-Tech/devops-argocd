@@ -1,6 +1,6 @@
 name: progress
 replicaCount: 1
-AppVersion: prod-stagging-63b5b07-94
+AppVersion: prod-stagging-4ef8fc6-98
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/progress
