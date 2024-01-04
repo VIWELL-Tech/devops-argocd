@@ -43,10 +43,10 @@ spec:
         #   periodSeconds: 5
         #   successThreshold: 1
         #   timeoutSeconds: 1
-        # name: {{ .Values.name }}
-        # ports:
-        # - containerPort: 30029
-        #   protocol: TCP
+        name: {{ .Values.name }}
+        ports:
+        - containerPort: 30029
+          protocol: TCP
         # readinessProbe:
         #   failureThreshold: 3
         #   httpGet:
