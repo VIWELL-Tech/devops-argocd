@@ -13,8 +13,8 @@ podSecurityContext: {}
 
 service:
   type: NodePort
-  port: 30029
-  targetport: 30029
+  port: 30044
+  targetport: 30044
 
 # resources: 
 #   requests:
