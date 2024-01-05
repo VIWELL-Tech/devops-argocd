@@ -30,6 +30,6 @@ namespace: "prod"
   
 ##for liveness and readiness
 path: "/health"
-port: 30029
+port: 30044
 
 
