@@ -1,6 +1,6 @@
 name: reward-partner
 replicaCount: 1
-AppVersion: "dev-af59dd2-52"
+AppVersion: "dev-b1fe5e8-53"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/reward-partner
