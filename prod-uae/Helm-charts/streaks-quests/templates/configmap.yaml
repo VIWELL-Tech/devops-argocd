@@ -2,6 +2,7 @@ apiVersion: v1
 data:
   VAR: "INPUT"
   SQL_DB_NAME: "prod_streak"
+  PGDATABASE: "prod_streak"
   ENV: "prod"
   SQL_DB_PORT: "5432"
 kind: ConfigMap
