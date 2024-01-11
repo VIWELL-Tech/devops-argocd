@@ -5,6 +5,7 @@ data:
   PORT: "30044"
   HOST: "0.0.0.0"
   SQL_DB_NAME: "staging_streak"
+  PGDATABASE: "staging_streak"
   LOG_TOPIC: "staging_log_topic"
   
 kind: ConfigMap
