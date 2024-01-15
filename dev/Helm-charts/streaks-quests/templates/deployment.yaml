@@ -23,6 +23,14 @@ spec:
         app: {{ .Values.name }}
         version: "{{ .Values.AppVersion }}"
     spec:
+      initContainers:
+      - name: init-db
+        image: "814880204573.dkr.ecr.us-east-1.amazonaws.com/nodeinternal:latest"
+        command: ["/bin/sh", "-c"]
+        args: ["npm install -g ts-node && PGHOST=$PGHOST PGPORT=$PGPORT PGDATABASE=$PGDATABASE PGUSER=$PGUSER PGPASSWORD=$PGPASSWORD npm run db:migrate"]
+        envFrom:
+        - secretRef:
+            name: {{ .Values.name }}
       containers: 
       - envFrom:
         - configMapRef:
