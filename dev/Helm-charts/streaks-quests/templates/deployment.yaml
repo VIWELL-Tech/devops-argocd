@@ -27,7 +27,8 @@ spec:
       - name: init-db
         image: "node:18"
         command: ["/bin/sh", "-c"]
-        args: ["npm install -g ts-node && PGHOST=$PGHOST PGPORT=$PGPORT PGDATABASE=$PGDATABASE PGUSER=$PGUSER PGPASSWORD=$PGPASSWORD npm run db:migrate"]
+        args: ["cd /app && ls -la && npm install -g ts-node &&  PGHOST=$PGHOST PGPORT=$PGPORT PGDATABASE=$PGDATABASE PGUSER=$PGUSER PGPASSWORD=$PGPASSWORD npm run db:migrate"]
+
         envFrom:
         - secretRef:
             name: {{ .Values.name }}
