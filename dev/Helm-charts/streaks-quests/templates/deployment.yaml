@@ -23,15 +23,6 @@ spec:
         app: {{ .Values.name }}
         version: "{{ .Values.AppVersion }}"
     spec:
-      initContainers:
-      - name: init-db
-        image: "node:18"
-        command: ["/bin/sh", "-c"]
-        args: ["cd /app && ls -la && npm install -g ts-node &&  PGHOST=$PGHOST PGPORT=$PGPORT PGDATABASE=$PGDATABASE PGUSER=$PGUSER PGPASSWORD=$PGPASSWORD npm run db:migrate"]
-
-        envFrom:
-        - secretRef:
-            name: {{ .Values.name }}
       containers: 
       - envFrom:
         - configMapRef:
@@ -42,6 +33,8 @@ spec:
              name: common      
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
+        command: ["/bin/sh", "-c"]
+        args: ["cd /app && ls -la && npm install -g ts-node &&  PGHOST=$PGHOST PGPORT=$PGPORT PGDATABASE=$PGDATABASE PGUSER=$PGUSER PGPASSWORD=$PGPASSWORD npm run db:migrate"]
         livenessProbe:
           failureThreshold: 3
           httpGet:
