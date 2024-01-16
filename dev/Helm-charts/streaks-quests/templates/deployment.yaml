@@ -26,8 +26,8 @@ spec:
       initContainers:
       - name: init-db
         image: "814880204573.dkr.ecr.us-east-1.amazonaws.com/nodeinhouse:latest"
-        command: ["/bin/sh", "-c"]
-        args: ["PGHOST=$PGHOST PGPORT=$PGPORT PGDATABASE=$PGDATABASE PGUSER=$PGUSER PGPASSWORD=$PGPASSWORD npm run db:migrate"]
+        #command: ["/bin/sh", "-c"]
+        #args: ["PGHOST=$PGHOST PGPORT=$PGPORT PGDATABASE=$PGDATABASE PGUSER=$PGUSER PGPASSWORD=$PGPASSWORD npm run db:migrate"]
         envFrom:
         - secretRef:
             name: {{ .Values.name }}
