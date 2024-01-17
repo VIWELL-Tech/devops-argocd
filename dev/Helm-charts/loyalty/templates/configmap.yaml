@@ -7,6 +7,7 @@ data:
   USER_STORE_DB: 'viwell-user-store'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  KAFKA_LOYALTY_ADD_POINTS: 'dev_loyalty_add_points'
   VAR: 'INPUT'
   PORT: '30021'
   HOST: '0.0.0.0'
