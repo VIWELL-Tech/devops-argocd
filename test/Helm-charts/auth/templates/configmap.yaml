@@ -14,6 +14,7 @@ data:
   SEND_UPDATE_CLIENT_EVENT: "test_send_update_client_event"
   USER_DELETED_EVENT: "test_user_deleted"
   EMPLOYEE_PROFILE_COMPLETED_EVENT: "test_employee_profile_completed"
+  KAFKA_LOYALTY_ADD_POINTS: "test_loyalty_add_points"
 
 
 

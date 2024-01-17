@@ -11,7 +11,7 @@ data:
   PORT: '30021'
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-loyalty'
-
+  KAFKA_LOYALTY_ADD_POINTS: "test_loyalty_add_points"
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
