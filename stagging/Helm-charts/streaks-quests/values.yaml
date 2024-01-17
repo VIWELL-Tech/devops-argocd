@@ -1,6 +1,6 @@
 name: streaks-quests
 replicaCount: 1
-AppVersion: "stagging-3561c5c-10"
+AppVersion: "stagging-f19caba-11"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/streaks-quests
