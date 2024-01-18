@@ -1,6 +1,6 @@
 name: email
 replicaCount: 1
-AppVersion: prod-stagging-f27b939-62
+AppVersion: prod-stagging-f27b939-64
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/email
