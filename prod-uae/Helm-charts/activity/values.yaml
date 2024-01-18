@@ -1,6 +1,6 @@
 name: activity
 replicaCount: 1
-AppVersion: prod-stagging-0b6f3e8-83
+AppVersion: prod-stagging-997402b-84
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/activity
