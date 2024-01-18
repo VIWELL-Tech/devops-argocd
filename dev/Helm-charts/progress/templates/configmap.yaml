@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   ENV: 'dev'
   
-  RabbitTimeout: '15000'
+  RabbitTimeout: '35000'
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
   USER_STORE_DB: 'viwell-user-store'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
