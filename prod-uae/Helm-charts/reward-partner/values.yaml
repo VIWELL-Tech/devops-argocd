@@ -1,6 +1,6 @@
 name: reward-partner
 replicaCount: 1
-AppVersion: prod-stagging-1557bce-53
+AppVersion: prod-stagging-08438ad-58
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/reward-partner
