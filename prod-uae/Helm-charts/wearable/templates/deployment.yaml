@@ -34,30 +34,30 @@ spec:
              name: common          
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
-        livenessProbe:
-          failureThreshold: 3
-          httpGet:
-            path: {{ .Values.path }}
-            port: {{ .Values.port }}
-            scheme: HTTP
-          initialDelaySeconds: 90
-          periodSeconds: 70
-          successThreshold: 1
-          timeoutSeconds: 5
+        # livenessProbe:
+        #   failureThreshold: 3
+        #   httpGet:
+        #     path: {{ .Values.path }}
+        #     port: {{ .Values.port }}
+        #     scheme: HTTP
+        #   initialDelaySeconds: 90
+        #   periodSeconds: 70
+        #   successThreshold: 1
+        #   timeoutSeconds: 5
         name: {{ .Values.name }}
         ports:
         - containerPort: 30040
           protocol: TCP
-        readinessProbe:
-          failureThreshold: 3
-          httpGet:
-            path: {{ .Values.path }}
-            port: {{ .Values.port }}
-            scheme: HTTP
-          initialDelaySeconds: 90
-          periodSeconds: 70
-          successThreshold: 1
-          timeoutSeconds: 5
+        # readinessProbe:
+        #   failureThreshold: 3
+        #   httpGet:
+        #     path: {{ .Values.path }}
+        #     port: {{ .Values.port }}
+        #     scheme: HTTP
+        #   initialDelaySeconds: 90
+        #   periodSeconds: 70
+        #   successThreshold: 1
+        #   timeoutSeconds: 5
         resources:
           {{- toYaml .Values.resources | nindent 12 }}
 
