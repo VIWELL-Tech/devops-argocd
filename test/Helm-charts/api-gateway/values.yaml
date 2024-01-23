@@ -1,5 +1,5 @@
 name: api-gateway
-replicaCount: 1
+replicaCount: 2
 AppVersion: "test-b6afcac-85"
 
 image:
@@ -24,7 +24,7 @@ service:
 
 autoscaling:
   enabled: false
-  minReplicas: 1
+  minReplicas: 2
   maxReplicas: 3
   targetCPUUtilizationPercentage:
 namespace: 'test'
