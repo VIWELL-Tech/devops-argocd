@@ -1,6 +1,6 @@
 name: wearable
 replicaCount: 4
-AppVersion: prod-stagging-a1ec67f-77
+AppVersion: prod-stagging-88b3f81-78
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/wearable
