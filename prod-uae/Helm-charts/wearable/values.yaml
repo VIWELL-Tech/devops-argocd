@@ -1,5 +1,5 @@
 name: wearable
-replicaCount: 3
+replicaCount: 1
 AppVersion: prod-stagging-88b3f81-78
 
 image:
@@ -24,7 +24,7 @@ service:
 
 autoscaling:
   enabled: false
-  minReplicas: 3
+  minReplicas: 1
   maxReplicas: 5
   targetCPUUtilizationPercentage:
 namespace: 'prod'
