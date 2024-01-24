@@ -1,5 +1,5 @@
 name: api-gateway
-replicaCount: 2
+replicaCount: 3
 AppVersion: prod-stagging-513ab94-58
 
 image:
@@ -24,8 +24,8 @@ service:
 
 autoscaling:
   enabled: true
-  minReplicas: 2
-  maxReplicas: 4
+  minReplicas: 3
+  maxReplicas: 5
   targetCPUUtilizationPercentage:
 namespace: 'prod'
 
