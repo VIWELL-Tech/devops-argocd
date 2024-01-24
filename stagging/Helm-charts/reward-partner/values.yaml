@@ -1,6 +1,6 @@
 name: reward-partner
 replicaCount: 1
-AppVersion: "stagging-e36a57e-61"
+AppVersion: "stagging-e36a57e-62"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/reward-partner
