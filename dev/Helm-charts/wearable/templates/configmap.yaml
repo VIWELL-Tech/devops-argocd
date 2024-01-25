@@ -23,6 +23,7 @@ data:
   KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'dev_daily_dynamic_notification'
   KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'dev_save_daily_dynamic_notification'
   KAFKA_LOYALTY_ADD_POINTS: 'dev_loyalty_add_points'
+  KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'dev_progress_add_wearable_tracking'
 
 
 kind: ConfigMap
