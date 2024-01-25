@@ -18,6 +18,7 @@ data:
   EMPLOYEE_PROFILE_COMPLETED_EVENT: "dev_employee_profile_completed"
   LOG_TOPIC: "dev_log_topic"
   KAFKA_LOYALTY_ADD_POINTS: 'dev_loyalty_add_points'
+  KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'dev_progress_add_wearable_tracking'
   
 kind: ConfigMap
 metadata:
