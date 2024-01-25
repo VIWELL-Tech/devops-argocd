@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  ENV: "dev"
+  ENV: "test"
   PORT: "30045"
 kind: ConfigMap
 metadata:
