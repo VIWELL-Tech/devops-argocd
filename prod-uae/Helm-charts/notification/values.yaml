@@ -1,6 +1,6 @@
 name: notification
 replicaCount: 1
-AppVersion: prod-stagging-4736cc3-50
+AppVersion: prod-stagging-4736cc3-47
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/notification
