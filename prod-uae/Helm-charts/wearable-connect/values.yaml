@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: prod-stagging-49ee5de-87
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/wearable-connect
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/wearable
   pullPolicy: Always
   tag: ''
 
