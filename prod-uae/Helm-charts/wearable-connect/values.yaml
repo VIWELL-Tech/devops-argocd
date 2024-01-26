@@ -1,4 +1,4 @@
-name: wearable
+name: wearable-connect
 replicaCount: 1
 AppVersion: prod-stagging-49ee5de-87
 
