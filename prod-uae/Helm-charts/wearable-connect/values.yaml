@@ -1,0 +1,34 @@
+name: wearable
+replicaCount: 1
+AppVersion: prod-stagging-49ee5de-87
+
+image:
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/wearable-connect
+  pullPolicy: Always
+  tag: ''
+
+podAnnotations:
+  linkerd.io/inject: disabled
+
+podSecurityContext: {}
+
+service:
+  type: NodePort
+  port: 30050
+  targetport: 30050
+
+# resources:
+#   requests:
+#     cpu: 250m
+#     memory: 128m
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 1
+  targetCPUUtilizationPercentage:
+namespace: 'prod'
+
+##for liveness and readiness
+path: '/health'
+port: 30050

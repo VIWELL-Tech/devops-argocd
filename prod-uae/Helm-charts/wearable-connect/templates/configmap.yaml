@@ -1,0 +1,12 @@
+apiVersion: v1
+data:
+  VAR: "INPUT"
+
+kind: ConfigMap
+metadata:
+  name:  {{ .Values.name }}
+  namespace: {{ .Values.namespace }}
+data: 
+  DB: "viwell-wearable"
+  S3_Region: "me-central-1"
+  S3_Bucket: "image-resize-prod-814880204573-us-east-1"
