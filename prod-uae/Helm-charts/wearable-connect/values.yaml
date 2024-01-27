@@ -1,5 +1,5 @@
 name: wearable-connect
-replicaCount: 4
+replicaCount: 2
 AppVersion: prod-stagging-13f5473-95
 
 image:
@@ -24,8 +24,8 @@ service:
 
 autoscaling:
   enabled: false
-  minReplicas: 5
-  maxReplicas: 6
+  minReplicas: 2
+  maxReplicas: 2
   targetCPUUtilizationPercentage:
 namespace: 'prod'
 
