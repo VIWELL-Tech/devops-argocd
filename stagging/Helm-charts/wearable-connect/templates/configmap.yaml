@@ -4,7 +4,7 @@ data:
   ENV: 'stagging'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
-  PORT: "30040"
+  PORT: "30050"
   HOST: "0.0.0.0"
   DB: "Stagging-wearable"
   S3_Bucket: "viwell-stagging"
@@ -26,6 +26,7 @@ data:
   KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'staging_daily_dynamic_notification'
   KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'staging_save_daily_dynamic_notification'
   KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'staging_progress_add_wearable_tracking'
+  KAFKA_WEBHOOK_NOTIFICATION: 'staging_wearable_connect_webhook'
 
 kind: ConfigMap
 metadata:
