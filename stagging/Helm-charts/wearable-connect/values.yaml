@@ -1,9 +1,9 @@
-name: wearable
+name: wearable-connect
 replicaCount: 3
 AppVersion: "stagging-49ee5de-87"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/wearable
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/wearable-connect
   pullPolicy: Always
   tag: ''
 
@@ -14,8 +14,8 @@ podSecurityContext: {}
 
 service:
   type: NodePort
-  port: 30040
-  targetport: 30040
+  port: 30050
+  targetport: 30050
 
 # resources:
 #   requests:
@@ -25,10 +25,10 @@ service:
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 3
   targetCPUUtilizationPercentage:
 namespace: 'stagging'
 
 ##for liveness and readiness
 path: '/health'
-port: 30040
+port: 30050
