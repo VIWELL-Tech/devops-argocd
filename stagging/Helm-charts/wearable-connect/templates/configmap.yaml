@@ -27,7 +27,8 @@ data:
   KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'staging_save_daily_dynamic_notification'
   KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'staging_progress_add_wearable_tracking'
   KAFKA_WEBHOOK_NOTIFICATION: 'staging_wearable_connect_webhook'
-
+  KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'staging_retry_save_dynamic_notification'
+  KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'staging_retry_save_daily_dynamic_notification'
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
