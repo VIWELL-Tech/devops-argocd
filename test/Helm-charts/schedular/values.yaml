@@ -1,6 +1,6 @@
 name: schedular
 replicaCount: 2
-AppVersion: "test-ca2e764-63"
+AppVersion: "test-b5c4f87-65"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/schedular
