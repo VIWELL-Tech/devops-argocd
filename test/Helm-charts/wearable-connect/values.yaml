@@ -1,5 +1,5 @@
 name: wearable-connect
-replicaCount: 3
+replicaCount: 2
 AppVersion: "stagging-8ed8fdf-21"
 
 image:
@@ -25,9 +25,9 @@ service:
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 3
+  maxReplicas: 2
   targetCPUUtilizationPercentage:
-namespace: 'stagging'
+namespace: 'test'
 
 ##for liveness and readiness
 path: '/health'
