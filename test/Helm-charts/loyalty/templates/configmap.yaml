@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   ENV: 'test'
-  
+  NODE_ENV: 'test'
 
 
   USER_STORE_DB: 'TEST_viwell-user-store'
