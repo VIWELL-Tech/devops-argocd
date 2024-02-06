@@ -30,6 +30,8 @@ data:
   KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'staging_retry_save_dynamic_notification'
   KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'staging_retry_save_daily_dynamic_notification'
   KAFKA_CONSUMER_GROUP_ID: 'staging_wearable-connect'
+  THRYVE_WEBHOOK_URL: 'https://3o170x8zai.execute-api.us-east-1.amazonaws.com/stage/wearable/notification'
+
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
