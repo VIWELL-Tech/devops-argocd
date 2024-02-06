@@ -13,6 +13,7 @@ data:
   DB: 'viwell-organization'
   NODE_ENV: 'false'
   SEND_UPDATE_CLIENT_EVENT: "dev_send_update_client_event"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_organization'
 
 kind: ConfigMap
 metadata:

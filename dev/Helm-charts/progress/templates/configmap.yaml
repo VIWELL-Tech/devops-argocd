@@ -19,6 +19,7 @@ data:
   LOG_TOPIC: "dev_log_topic"
   KAFKA_LOYALTY_ADD_POINTS: 'dev_loyalty_add_points'
   KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'dev_progress_add_wearable_tracking'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_progress'
   
 kind: ConfigMap
 metadata:

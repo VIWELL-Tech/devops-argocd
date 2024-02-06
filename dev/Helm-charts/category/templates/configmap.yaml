@@ -15,6 +15,7 @@ data:
   SEND_DELETE_COLLECTION_CATEGORY: "dev_send_delete_collection_category"
   SEND_UPDATE_PILLAR_EVENT: "dev_send_update_pillar_event"
   SEND_DEACTIVATE_PILLAR_EVENT: "dev_send_deactivate_pillar_event"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_category'
 
 kind: ConfigMap
 metadata:

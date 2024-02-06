@@ -11,6 +11,7 @@ data:
   PORT: "80"
   HOST: "0.0.0.0"
   JwtIss: "viwell.app"
+  
 
 kind: ConfigMap
 metadata:

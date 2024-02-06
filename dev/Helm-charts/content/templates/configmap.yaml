@@ -22,6 +22,7 @@ data:
   SEND_UPDATE_CREATOR_EVENT: "dev_send_update_creator_event"
   SEND_DEACTIVATE_CREATOR_EVENT: "dev_send_deactivate_creator_event"
   LOG_TOPIC: "dev_log_topic"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_content'
   
 kind: ConfigMap
 metadata:

@@ -3,6 +3,7 @@ data:
   VAR: "INPUT"
   ENV: "dev"
   PORT: "30045"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_habits'
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
