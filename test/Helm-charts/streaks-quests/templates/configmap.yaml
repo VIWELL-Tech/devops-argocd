@@ -7,6 +7,7 @@ data:
   SQL_DB_NAME: "test_streak"
   PGDATABASE: "test_streak"
   LOG_TOPIC: "test_log_topic"
+  DISABLE_FOR_KSA: "true"
   
 kind: ConfigMap
 metadata:
