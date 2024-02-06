@@ -27,7 +27,6 @@ data:
   KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'staging_save_daily_dynamic_notification'
   KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'staging_progress_add_wearable_tracking'
   KAFKA_CONSUMER_GROUP_ID: 'staging_wearable'
-  THRYVE_WEBHOOK_URL: 'https://3o170x8zai.execute-api.us-east-1.amazonaws.com/stage/wearable/notification'
 
 kind: ConfigMap
 metadata:
