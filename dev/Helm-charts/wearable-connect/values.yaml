@@ -1,5 +1,5 @@
 name: wearable-connect
-replicaCount: 2
+replicaCount: 1
 AppVersion: "dev-85a3818-2"
 
 image:
