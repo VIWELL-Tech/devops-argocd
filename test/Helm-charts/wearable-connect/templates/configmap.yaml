@@ -20,7 +20,7 @@ data:
   apiUrl: 'https://api.und-gesund.de/v5/'
   ContentType: 'application/x-www-form-urlencoded'
   AppID: '8DlPLJh4HTz7K5la'
-  THRYVE_AppID: '8DlPLJh4HTz7K5la'
+  THRYVE_AppID: '5QlBLJl4Hwz7M4Xi'
   KAFKA_DYNAMIC_NOTIFICATION: 'test_dynamic_notification'
   KAFKA_SAVE_DYNAMIC_NOTIFICATION: 'test_save_dynamic_notification'
   KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'test_daily_dynamic_notification'
@@ -30,6 +30,7 @@ data:
   KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'test_retry_save_dynamic_notification'
   KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_retry_save_daily_dynamic_notification'
   KAFKA_CONSUMER_GROUP_ID: 'test_wearable-connect'
+  THRYVE_WEBHOOK_URL: 'https://rpqw3v35th.execute-api.us-east-1.amazonaws.com/test/wearable/notification'
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
