@@ -14,6 +14,8 @@ data:
   RabbitTimeout: '10000'
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
   USER_STORE_DB: 'viwell-user-store'
+  KAFKA_CONSUMER_GROUP_ID: "staging_reward"
+  
   
 kind: ConfigMap
 metadata:

@@ -23,6 +23,8 @@ data:
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
   USER_STORE_DB: 'viwell-user-store'
   LOG_TOPIC: "staging_topic_log"
+  KAFKA_CONSUMER_GROUP_ID: "staging_reward-partner"
+  
   
 kind: ConfigMap
 metadata:
