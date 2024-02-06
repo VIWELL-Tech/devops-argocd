@@ -23,6 +23,7 @@ data:
   KAFKA_LOYALTY_ADD_POINTS: "test_loyalty_add_points"
   KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'test_progress_add_wearable_tracking'
   KAFKA_CONSUMER_GROUP_ID: 'test_wearable'
+  THRYVE_WEBHOOK_URL: 'https://rpqw3v35th.execute-api.us-east-1.amazonaws.com/test/wearable/notification'
   
 
 kind: ConfigMap
