@@ -29,6 +29,7 @@ data:
   KAFKA_WEBHOOK_NOTIFICATION: 'test_wearable_connect_webhook'
   KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'test_retry_save_dynamic_notification'
   KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_retry_save_daily_dynamic_notification'
+  KAFKA_CONSUMER_GROUP_ID: 'test_wearable-connect'
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
