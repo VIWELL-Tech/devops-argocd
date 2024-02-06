@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   ENV: 'test'
- 
+
   USER_STORE_DB: 'TEST_viwell-user-store'
 
   VAR: 'INPUT'
@@ -9,6 +9,7 @@ data:
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-reward'
   SEND_UPDATE_CLIENT_EVENT: "test_send_update_client_event"
+  KAFKA_CONSUMER_GROUP_ID: 'test_reward'
 
 
 kind: ConfigMap

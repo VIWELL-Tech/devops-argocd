@@ -11,6 +11,7 @@ data:
   ON_BOARDING_ASSESSMENT_COMPLETE_EVENT: "test_on_boarding_assessment_complete"
   VIWELL_ASSESSMENT_COMPLETE_EVENT: "test_viwell_assessment_complete"
   CHECKIN_DONE_EVENT: "test_checkin_done"
+  KAFKA_CONSUMER_GROUP_ID: 'test_personalisation'
 
 
 kind: ConfigMap

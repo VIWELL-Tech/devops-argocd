@@ -9,7 +9,9 @@ data:
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-organization'
   NODE_ENV: 'false'
-  SEND_UPDATE_CLIENT_EVENT: "test_send_update_client_event"  
+  SEND_UPDATE_CLIENT_EVENT: "test_send_update_client_event"
+  KAFKA_CONSUMER_GROUP_ID: 'test_organization'
+
 
 kind: ConfigMap
 metadata:

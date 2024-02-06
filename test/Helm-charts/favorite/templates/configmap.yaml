@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   ENV: 'test'
-  
+
 
 
   USER_STORE_DB: 'TEST_viwell-user-store'
@@ -12,7 +12,8 @@ data:
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-favorite'
   CONTENT_UPDATED_EVENT: "test_content_updated"
-  
+  KAFKA_CONSUMER_GROUP_ID: 'test_favorite'
+
 
 kind: ConfigMap
 metadata:

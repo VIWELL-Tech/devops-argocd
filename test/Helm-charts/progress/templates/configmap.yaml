@@ -1,8 +1,8 @@
 apiVersion: v1
 data:
   ENV: 'test'
-  
- 
+
+
 
   USER_STORE_DB: 'TEST_viwell-user-store'
 
@@ -19,6 +19,7 @@ data:
   LOG_TOPIC: "test_log_topic"
   KAFKA_LOYALTY_ADD_POINTS: "test_loyalty_add_points"
   KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'test_progress_add_wearable_tracking'
+  KAFKA_CONSUMER_GROUP_ID: 'test_progress'
 
 kind: ConfigMap
 metadata:

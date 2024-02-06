@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   ENV: 'test'
- 
+
   USER_STORE_DB: 'TEST_viwell-user-store'
 
 
@@ -11,6 +11,7 @@ data:
   DB: 'TEST_viwell-pillar'
   SEND_UPDATE_PILLAR_EVENT: "test_send_update_pillar_event"
   SEND_DEACTIVATE_PILLAR_EVENT: "test_send_deactivate_pillar_event"
+  KAFKA_CONSUMER_GROUP_ID: 'test_pillar'
 
 
 kind: ConfigMap

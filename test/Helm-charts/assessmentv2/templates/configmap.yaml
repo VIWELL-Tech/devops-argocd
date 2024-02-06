@@ -9,7 +9,8 @@ data:
   HOST: '0.0.0.0'
   LOG_TOPIC: "test_log_topic"
   KAFKA_LOYALTY_ADD_POINTS: "test_loyalty_add_points"
-  
+  KAFKA_CONSUMER_GROUP_ID: 'test_assessment-v2'
+
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}

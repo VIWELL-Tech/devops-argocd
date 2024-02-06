@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   ENV: 'test'
-  
+
 
 
   USER_STORE_DB: 'TEST_viwell-user-store'
@@ -11,7 +11,8 @@ data:
   PORT: '30011'
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-tag'
-  SEND_UPDATE_TAG_EVENT: "test_send_update_tag_event"  
+  SEND_UPDATE_TAG_EVENT: "test_send_update_tag_event"
+  KAFKA_CONSUMER_GROUP_ID: 'test_tag'
 
 kind: ConfigMap
 metadata:
