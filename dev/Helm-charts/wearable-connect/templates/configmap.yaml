@@ -6,12 +6,12 @@ data:
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
   PORT: "30050"
   HOST: "0.0.0.0"
-  DB: "TEST_viwell-wearable"
-  S3_Bucket: "image-resize-test-814880204573-us-east-1"
+  DB: "viwell-wearable"
+  S3_Bucket: "image-resize-dev-814880204573-us-east-1"
   S3_Region: "us-east-1"
   MIN_POOL_SIZE: "2"
   MAX_POOL_SIZE: "4"
-  AdminHost: 'portal-test.viwell.app'
+  AdminHost: 'portal-dev.viwell.app'
   RabbitTimeout: '10000'
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
   USER_STORE_DB: 'viwell-user-store'
@@ -21,14 +21,14 @@ data:
   ContentType: 'application/x-www-form-urlencoded'
   AppID: '8DlPLJh4HTz7K5la'
   THRYVE_AppID: '8DlPLJh4HTz7K5la'
-  KAFKA_DYNAMIC_NOTIFICATION: 'test_dynamic_notification'
-  KAFKA_SAVE_DYNAMIC_NOTIFICATION: 'test_save_dynamic_notification'
-  KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'test_daily_dynamic_notification'
-  KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_save_daily_dynamic_notification'
-  KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'test_progress_add_wearable_tracking'
-  KAFKA_WEBHOOK_NOTIFICATION: 'test_wearable_connect_webhook'
-  KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'test_retry_save_dynamic_notification'
-  KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_retry_save_daily_dynamic_notification'
+  KAFKA_DYNAMIC_NOTIFICATION: 'dev_dynamic_notification'
+  KAFKA_SAVE_DYNAMIC_NOTIFICATION: 'dev_save_dynamic_notification'
+  KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'dev_daily_dynamic_notification'
+  KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'dev_save_daily_dynamic_notification'
+  KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'dev_progress_add_wearable_tracking'
+  KAFKA_WEBHOOK_NOTIFICATION: 'dev_wearable_connect_webhook'
+  KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'dev_retry_save_dynamic_notification'
+  KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'dev_retry_save_daily_dynamic_notification'
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
