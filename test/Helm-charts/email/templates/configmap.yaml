@@ -16,6 +16,7 @@ data:
   GLOBAL_OBJECT_STORAGE_BUCKET_NAME: "viwell-email-templates-test"
   GLOBAL_OBJECT_STORAGE_REGION: "us-east-1"
   KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: "viwell-email-templates-test"
+  KAFKA_CONSUMER_GROUP_ID: 'test_email'
 
 kind: ConfigMap
 metadata:
