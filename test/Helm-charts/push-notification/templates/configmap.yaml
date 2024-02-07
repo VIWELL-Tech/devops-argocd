@@ -6,8 +6,8 @@ data:
 
   VAR: 'INPUT'
   DB: 'TEST_viwell-push-notification'
-  KAFKA_CONSUMER_GROUP_ID: 'dev_push-notification'
-  
+  KAFKA_CONSUMER_GROUP_ID: 'test_push-notification'
+
 
 kind: ConfigMap
 metadata:

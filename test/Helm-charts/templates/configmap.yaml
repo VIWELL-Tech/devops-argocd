@@ -3,6 +3,7 @@ data:
   VAR: "INPUT"
   SQL_DB_NAME: "aggregates"
   ENV: "dev"
+  
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
