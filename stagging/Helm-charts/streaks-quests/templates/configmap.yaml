@@ -7,6 +7,8 @@ data:
   SQL_DB_NAME: "staging_streak"
   PGDATABASE: "staging_streak"
   LOG_TOPIC: "staging_log_topic"
+  KAFKA_CONSUMER_GROUP_ID: "staging_streak-quest"
+  
   
 kind: ConfigMap
 metadata:
