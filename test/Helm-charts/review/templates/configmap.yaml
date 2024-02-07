@@ -8,6 +8,8 @@ data:
   PORT: '3006'
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-review'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_review'
+  
 
 kind: ConfigMap
 metadata:

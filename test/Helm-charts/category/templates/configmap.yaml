@@ -12,7 +12,7 @@ data:
   SEND_DELETE_COLLECTION_CATEGORY: "test_send_delete_collection_category"
   SEND_UPDATE_PILLAR_EVENT: "test_send_update_pillar_event"
   SEND_DEACTIVATE_PILLAR_EVENT: "test_send_deactivate_pillar_event"
-  KAFKA_CONSUMER_GROUP_ID: 'test_category
+  KAFKA_CONSUMER_GROUP_ID: 'test_category'
 
 
 kind: ConfigMap

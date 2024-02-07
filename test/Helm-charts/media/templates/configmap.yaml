@@ -18,6 +18,8 @@ data:
   KSA_OBJECT_STORAGE_REGION: 'us-east-1'
   GLOBAL_OBJECT_STORAGE_BUCKET_NAME: 'image-resize-test-814880204573-us-east-1'
   GLOBAL_OBJECT_STORAGE_REGION: 'us-east-1'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_media'
+  
 
 kind: ConfigMap
 metadata:

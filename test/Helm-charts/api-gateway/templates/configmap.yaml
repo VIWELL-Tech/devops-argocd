@@ -6,6 +6,8 @@ data:
   PORT: "80"
   HOST: "0.0.0.0"
   JwtIss: "viwell.app"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_api-gateway'
+  
 
 kind: ConfigMap
 metadata:

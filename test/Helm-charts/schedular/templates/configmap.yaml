@@ -11,6 +11,8 @@ data:
   PORT: '30023'
   HOST: '0.0.0.0'
   DB: 'TEST_viwell-schedular'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_schedular'
+  
 
 kind: ConfigMap
 metadata:

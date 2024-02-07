@@ -8,6 +8,7 @@ data:
   PGDATABASE: "test_streak"
   LOG_TOPIC: "test_log_topic"
   DISABLE_FOR_KSA: "true"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_streak'
   
 kind: ConfigMap
 metadata:
