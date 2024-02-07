@@ -3,6 +3,8 @@ data:
   VAR: "INPUT"
   SQL_DB_NAME: "dev_aggregates"
   ENV: "dev"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_presenter'
+  
 
 kind: ConfigMap
 metadata:

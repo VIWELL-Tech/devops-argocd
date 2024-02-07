@@ -7,6 +7,8 @@ data:
   PGDATABASE: "dev_streak"
   SQL_DB_NAME: "dev_streak"
   LOG_TOPIC: "dev_log_topic"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_streak'
+  
   
 kind: ConfigMap
 metadata:

@@ -18,6 +18,7 @@ data:
   KSA_OBJECT_STORAGE_BUCKET_NAMESPACE: 'axzsfqzecwcx'
   KSA_OBJECT_STORAGE_BUCKET_NAME: 'viwell-media-ksa-dev'
   KSA_OBJECT_STORAGE_REGION: 'us-east-1'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_media'
 
 kind: ConfigMap
 metadata:

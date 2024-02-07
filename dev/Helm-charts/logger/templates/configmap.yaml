@@ -13,6 +13,8 @@ data:
   DB: 'viwell-logger'
   NODE_ENV: 'false'
   LOG_TOPIC: "dev_log_topic"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_habits'
+  
 
 kind: ConfigMap
 metadata:

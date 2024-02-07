@@ -11,6 +11,7 @@ data:
   PORT: "30026"
   HOST: "0.0.0.0"
   DB: "viwell-report"
+  KAFKA_CONSUMER_GROUP_ID: 'dev_report'
 
 kind: ConfigMap
 metadata:

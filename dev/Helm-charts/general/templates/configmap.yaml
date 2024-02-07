@@ -11,6 +11,8 @@ data:
   PORT: '30028'
   HOST: '0.0.0.0'
   DB: 'viwell-general'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_general'
+  
 
 kind: ConfigMap
 metadata:

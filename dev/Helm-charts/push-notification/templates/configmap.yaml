@@ -9,6 +9,7 @@ data:
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
   VAR: 'INPUT'
   DB: 'viwell-push-notification'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_push-notification'
 
 kind: ConfigMap
 metadata:
