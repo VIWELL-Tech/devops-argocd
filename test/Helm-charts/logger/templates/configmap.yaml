@@ -10,6 +10,7 @@ data:
   DB: 'TEST_viwell-logger'
   NODE_ENV: 'false'
   LOG_TOPIC: "test_log_topic"
+  KAFKA_CONSUMER_GROUP_ID: 'test_logger'
 
 kind: ConfigMap
 metadata:
