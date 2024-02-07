@@ -12,7 +12,7 @@ data:
   HOST: '0.0.0.0'
   DB: 'viwell-tag'
   SEND_UPDATE_TAG_EVENT: "dev_send_update_tag_event"
-   KAFKA_CONSUMER_GROUP_ID: 'dev_tag'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_tag'
 
 kind: ConfigMap
 metadata:
