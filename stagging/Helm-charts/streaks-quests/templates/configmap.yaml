@@ -8,6 +8,7 @@ data:
   PGDATABASE: "staging_streak"
   LOG_TOPIC: "staging_log_topic"
   KAFKA_CONSUMER_GROUP_ID: "staging_streak-quest"
+  DISABLE_FOR_KSA: "true"
   
   
 kind: ConfigMap
