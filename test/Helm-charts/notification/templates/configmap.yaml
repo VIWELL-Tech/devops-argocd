@@ -10,6 +10,7 @@ data:
   DB: 'TEST_viwell-notification'
   SUPPORT_EMAIL: 'support_test@viwell.com'
   NODE_ENV: 'false'
+  KAFKA_CONSUMER_GROUP_ID: 'test_notification'
 
 kind: ConfigMap
 metadata:
