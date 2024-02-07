@@ -13,6 +13,7 @@ data:
   DB: 'viwell-notification'
   NODE_ENV: 'false'
   AUTH_DB: 'viwell-auth'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_notification'
 
 kind: ConfigMap
 metadata:
