@@ -4,7 +4,8 @@ data:
   PORT: "30014"
   HOST: "0.0.0.0"
   DB: "viwell-organization"
-  NODE_ENV: "false"  
+  NODE_ENV: "false"
+  KAFKA_HEARTBEAT_INTERVAL: "30000"
 
 kind: ConfigMap
 metadata:
