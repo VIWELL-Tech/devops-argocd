@@ -5,6 +5,7 @@ data:
   PGDATABASE: "prod_streak"
   ENV: "prod"
   SQL_DB_PORT: "5432"
+  DISABLE_FOR_KSA: "true"
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}
