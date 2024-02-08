@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  KAFKA_HEARTBEAT_INTERVAL: "30000"
+ 
 
 kind: ConfigMap
 metadata:
