@@ -9,7 +9,8 @@ data:
   RabbitTimeout: "10000"
   USER_STORE_DB: "viwell-user-store"
   AdminHost: "portal.viwell.app"
-  DYNAMIC_LINK_DOMAIN_URI_PREFIX: "link.viwell.app"  
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: "link.viwell.app"
+  KAFKA_HEARTBEAT_INTERVAL: "30000"
 
 kind: ConfigMap
 metadata:
