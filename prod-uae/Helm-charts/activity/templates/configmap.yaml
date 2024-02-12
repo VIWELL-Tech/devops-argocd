@@ -11,5 +11,4 @@ data:
   DYNAMIC_LINK_DOMAIN_URI_PREFIX: "https://link.viwell.app"
   SEND_DELETE_COLLECTION_CATEGORY: "send_delete_collection_category"
   SEND_UPDATE_CLIENT_EVENT: "send_update_client_event"
-  KAFKA_SESSION_TIMEOUT: "100000"
-  KAFKA_HEARTBEAT_INTERVAL: "30000"
+
