@@ -1,6 +1,6 @@
 name: organization
 replicaCount: 1
-AppVersion: "test-09c0d24-133"
+AppVersion: "test-f6f561a-134"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/organization
