@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  VAR: "INPUT"
+  ENV: "test"
+  PORT: "30045"
+  KAFKA_CONSUMER_GROUP_ID: 'test_habits'
+kind: ConfigMap
+metadata:
+  name:  {{ .Values.name }}
+  namespace: {{ .Values.namespace }}
