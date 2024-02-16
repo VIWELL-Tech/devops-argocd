@@ -1,6 +1,6 @@
 name: progress
 replicaCount: 1
-AppVersion: "dev-93bdecb-303"
+AppVersion: "dev-450298f-306"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/progress
