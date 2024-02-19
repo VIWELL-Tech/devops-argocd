@@ -1,8 +1,8 @@
-name: attribute
+name: habits
 replicaCount: 1
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/attribute
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/habits
   pullPolicy: Always
   tag: ""
 
@@ -13,8 +13,8 @@ podSecurityContext: {}
 
 service:
   type: NodePort
-  port: 30032
-  targetport: 30032
+  port: 30045
+  targetport: 30045
 
 # resources: 
 #   requests:
@@ -24,12 +24,12 @@ service:
 autoscaling:
   enabled: false
   minReplicas: 1
-  maxReplicas: 3
+  maxReplicas: 2
   targetCPUUtilizationPercentage:   
 namespace: "prod"
   
 ##for liveness and readiness
 path: "/health"
-port: 30032
+port: 30045
 
 
