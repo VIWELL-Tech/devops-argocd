@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  ENV: "test"
+  ENV: "stagging"
   PORT: "30045"
   KAFKA_CONSUMER_GROUP_ID: 'staging_habits'
 kind: ConfigMap
