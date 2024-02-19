@@ -1,8 +1,9 @@
 apiVersion: v1
 data:
   VAR: "INPUT"
-  SQL_DB_NAME: "prod_attribute"
   ENV: "prod"
+  PORT: "30045"
+  KAFKA_CONSUMER_GROUP_ID: 'prod_habits'
 
 kind: ConfigMap
 metadata:
