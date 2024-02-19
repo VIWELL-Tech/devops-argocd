@@ -1,6 +1,6 @@
 name: loyalty
 replicaCount: 1
-AppVersion: "stagging-fc22797-51"
+AppVersion: "stagging-86a810a-52"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/loyalty
