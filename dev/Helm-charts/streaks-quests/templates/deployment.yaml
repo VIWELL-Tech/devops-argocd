@@ -19,20 +19,10 @@ spec:
       annotations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+
       labels:
         app: {{ .Values.name }}
-        version: "{{ .Values.AppVersion }}"
     spec:
-      # initContainers:
-      # - name: init-db
-      #   image: "814880204573.dkr.ecr.us-east-1.amazonaws.com/nodeinhouse:latest"
-      #   envFrom:
-      #   - configMapRef:
-      #       name: {{ .Values.name }}
-      #   - secretRef:
-      #       name: {{ .Values.name }}
-      #   - secretRef:
-      #        name: common 
       containers: 
       - envFrom:
         - configMapRef:
@@ -40,7 +30,7 @@ spec:
         - secretRef:
             name: {{ .Values.name }}
         - secretRef:
-             name: common      
+             name: common             
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         livenessProbe:
@@ -76,4 +66,3 @@ spec:
       restartPolicy: Always
       schedulerName: default-scheduler
       securityContext: {}
-
