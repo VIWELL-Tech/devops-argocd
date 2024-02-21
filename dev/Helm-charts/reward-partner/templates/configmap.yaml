@@ -21,7 +21,7 @@ data:
   KSA_OBJECT_STORAGE_REGION: "me-jeddah-1"
   SEND_TIER_UPDATE_EVENT: "dev_send_tier_update"
   LOG_TOPIC: "dev_log_topic"
-   KAFKA_CONSUMER_GROUP_ID: 'dev_reward-partner'
+  KAFKA_CONSUMER_GROUP_ID: 'dev_reward-partner'
   
 kind: ConfigMap
 metadata:
