@@ -1,6 +1,6 @@
 name: rbac
 replicaCount: 1
-AppVersion: "stagging-e06ce3f-30"
+AppVersion: "stagging-2941667-32"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/rbac
