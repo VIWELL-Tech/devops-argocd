@@ -1,6 +1,6 @@
 name: personalisation
 replicaCount: 1
-AppVersion: prod-stagging-034ca75-19
+AppVersion: prod-stagging-1657e6f-21
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/personalisation
