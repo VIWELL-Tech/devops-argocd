@@ -1,6 +1,6 @@
 name: tag
 replicaCount: 1
-AppVersion: prod-stagging-d52aa56-20
+AppVersion: prod-stagging-36ee358-22
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/tag
