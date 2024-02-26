@@ -1,6 +1,6 @@
 name: favorite
 replicaCount: 1
-AppVersion: prod-stagging-b94554f-32
+AppVersion: prod-stagging-6a37c9c-34
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/favorite
