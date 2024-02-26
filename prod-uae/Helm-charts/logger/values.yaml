@@ -1,6 +1,6 @@
 name: logger
 replicaCount: 1
-AppVersion: prod-stagging-a2fbbdf-32
+AppVersion: prod-stagging-5426d9e-34
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/logger
