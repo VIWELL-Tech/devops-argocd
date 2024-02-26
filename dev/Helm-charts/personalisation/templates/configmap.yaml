@@ -1,20 +1,20 @@
 apiVersion: v1
 data:
-  ENV: 'dev'
+  # ENV: 'dev'
   
  
-  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
-  USER_STORE_DB: 'viwell-user-store'
-  SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
-  SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
-  VAR: 'INPUT'
-  PORT: '30027'
-  HOST: '0.0.0.0'
-  DB: 'viwell-personalisation'
-  ON_BOARDING_ASSESSMENT_COMPLETE_EVENT: "dev_on_boarding_assessment_complete"
-  VIWELL_ASSESSMENT_COMPLETE_EVENT: "dev_viwell_assessment_complete"
-  CHECKIN_DONE_EVENT: "dev_checkin_done"
-  KAFKA_CONSUMER_GROUP_ID: 'dev_personalisation'
+  # DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  # USER_STORE_DB: 'viwell-user-store'
+  # SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
+  # SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  # VAR: 'INPUT'
+  # PORT: '30027'
+  # HOST: '0.0.0.0'
+  # DB: 'viwell-personalisation'
+  # ON_BOARDING_ASSESSMENT_COMPLETE_EVENT: "dev_on_boarding_assessment_complete"
+  # VIWELL_ASSESSMENT_COMPLETE_EVENT: "dev_viwell_assessment_complete"
+  # CHECKIN_DONE_EVENT: "dev_checkin_done"
+  # KAFKA_CONSUMER_GROUP_ID: 'dev_personalisation'
 
 kind: ConfigMap
 metadata:

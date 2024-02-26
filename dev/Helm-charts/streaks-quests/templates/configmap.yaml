@@ -1,13 +1,13 @@
 apiVersion: v1
 data:
-  ENV: "dev"
-  VAR: "INPUT"
-  PORT: "30044"
-  HOST: "0.0.0.0"
-  PGDATABASE: "dev_streak"
-  SQL_DB_NAME: "dev_streak"
-  LOG_TOPIC: "dev_log_topic"
-  KAFKA_CONSUMER_GROUP_ID: 'dev_streak'
+  # ENV: "dev"
+  # VAR: "INPUT"
+  # PORT: "30044"
+  # HOST: "0.0.0.0"
+  # PGDATABASE: "dev_streak"
+  # SQL_DB_NAME: "dev_streak"
+  # LOG_TOPIC: "dev_log_topic"
+  # KAFKA_CONSUMER_GROUP_ID: 'dev_streak'
   
   
 kind: ConfigMap

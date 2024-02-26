@@ -1,10 +1,10 @@
 apiVersion: v1
 data:
-  VAR: "INPUT"
-  SQL_DB_NAME: "dev_aggregates"
-  ENV: "dev"
-  LOG_TOPIC: "dev_log_topic"
-  KAFKA_CONSUMER_GROUP_ID: "dev_aggregates_1"
+  # VAR: "INPUT"
+  # SQL_DB_NAME: "dev_aggregates"
+  # ENV: "dev"
+  # LOG_TOPIC: "dev_log_topic"
+  # KAFKA_CONSUMER_GROUP_ID: "dev_aggregates_1"
 kind: ConfigMap
 metadata:
   name:  {{ .Values.name }}

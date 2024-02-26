@@ -1,14 +1,14 @@
 apiVersion: v1
 data:
-  ENV: "dev"
+  # ENV: "dev"
  
 
 
-  USER_STORE_DB: "viwell-user-store"
+  # USER_STORE_DB: "viwell-user-store"
 
 
-  VAR: "INPUT"
-  ENV: "dev"
+  # VAR: "INPUT"
+  # ENV: "dev"
 
 kind: ConfigMap
 metadata:

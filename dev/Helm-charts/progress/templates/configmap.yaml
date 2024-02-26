@@ -1,25 +1,25 @@
 apiVersion: v1
 data:
-  ENV: 'dev'
+  # ENV: 'dev'
   
-  RabbitTimeout: '35000'
-  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
-  USER_STORE_DB: 'viwell-user-store'
-  SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
-  SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
-  VAR: 'INPUT'
-  PORT: '30024'
-  HOST: '0.0.0.0'
-  DB: 'viwell-progress'
-  SEND_UPDATE_CATEGORY_EVENT: "dev_send_update_category_event"
-  CONTENT_UPDATED_EVENT: "dev_content_updated"
-  COLLECTION_UPDATED_EVENT: "dev_collection_updated"
-  TOGGLE_CONTENT_STATUS_EVENT: "dev_toggle_content_status"
-  EMPLOYEE_PROFILE_COMPLETED_EVENT: "dev_employee_profile_completed"
-  LOG_TOPIC: "dev_log_topic"
-  KAFKA_LOYALTY_ADD_POINTS: 'dev_loyalty_add_points'
-  KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'dev_progress_add_wearable_tracking'
-  KAFKA_CONSUMER_GROUP_ID: 'dev_progress'
+  # RabbitTimeout: '35000'
+  # DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  # USER_STORE_DB: 'viwell-user-store'
+  # SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
+  # SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  # VAR: 'INPUT'
+  # PORT: '30024'
+  # HOST: '0.0.0.0'
+  # DB: 'viwell-progress'
+  # SEND_UPDATE_CATEGORY_EVENT: "dev_send_update_category_event"
+  # CONTENT_UPDATED_EVENT: "dev_content_updated"
+  # COLLECTION_UPDATED_EVENT: "dev_collection_updated"
+  # TOGGLE_CONTENT_STATUS_EVENT: "dev_toggle_content_status"
+  # EMPLOYEE_PROFILE_COMPLETED_EVENT: "dev_employee_profile_completed"
+  # LOG_TOPIC: "dev_log_topic"
+  # KAFKA_LOYALTY_ADD_POINTS: 'dev_loyalty_add_points'
+  # KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'dev_progress_add_wearable_tracking'
+  # KAFKA_CONSUMER_GROUP_ID: 'dev_progress'
   
 kind: ConfigMap
 metadata:
