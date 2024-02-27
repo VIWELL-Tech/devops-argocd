@@ -1,36 +1,36 @@
 apiVersion: v1
 data:
-  VAR: 'INPUT'
-  ENV: 'test'
-  SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
-  SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
-  PORT: "30050"
-  HOST: "0.0.0.0"
-  DB: "TEST_viwell-wearable"
-  S3_Bucket: "image-resize-test-814880204573-us-east-1"
-  S3_Region: "us-east-1"
-  MIN_POOL_SIZE: "2"
-  MAX_POOL_SIZE: "4"
-  AdminHost: 'portal-test.viwell.app'
-  RabbitTimeout: '10000'
-  DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
-  USER_STORE_DB: 'viwell-user-store'
-  S3_Bucket: 'image-resize-test-814880204573-us-east-1'
-  S3_Region: 'us-east-1'
-  apiUrl: 'https://api.und-gesund.de/v5/'
-  ContentType: 'application/x-www-form-urlencoded'
-  AppID: '8DlPLJh4HTz7K5la'
-  THRYVE_AppID: '5QlBLJl4Hwz7M4Xi'
-  KAFKA_DYNAMIC_NOTIFICATION: 'test_dynamic_notification'
-  KAFKA_SAVE_DYNAMIC_NOTIFICATION: 'test_save_dynamic_notification'
-  KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'test_daily_dynamic_notification'
-  KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_save_daily_dynamic_notification'
-  KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'test_progress_add_wearable_tracking'
-  KAFKA_WEBHOOK_NOTIFICATION: 'test_wearable_connect_webhook'
-  KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'test_retry_save_dynamic_notification'
-  KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_retry_save_daily_dynamic_notification'
-  KAFKA_CONSUMER_GROUP_ID: 'test_wearable-connect'
-  THRYVE_WEBHOOK_URL: 'https://rpqw3v35th.execute-api.us-east-1.amazonaws.com/test/wearable/notification'
+  # VAR: 'INPUT'
+  # ENV: 'test'
+  # SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
+  # SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
+  # PORT: "30050"
+  # HOST: "0.0.0.0"
+  # DB: "TEST_viwell-wearable"
+  # S3_Bucket: "image-resize-test-814880204573-us-east-1"
+  # S3_Region: "us-east-1"
+  # MIN_POOL_SIZE: "2"
+  # MAX_POOL_SIZE: "4"
+  # AdminHost: 'portal-test.viwell.app'
+  # RabbitTimeout: '10000'
+  # DYNAMIC_LINK_DOMAIN_URI_PREFIX: 'link.viwell.app'
+  # USER_STORE_DB: 'viwell-user-store'
+  # S3_Bucket: 'image-resize-test-814880204573-us-east-1'
+  # S3_Region: 'us-east-1'
+  # apiUrl: 'https://api.und-gesund.de/v5/'
+  # ContentType: 'application/x-www-form-urlencoded'
+  # AppID: '8DlPLJh4HTz7K5la'
+  # THRYVE_AppID: '5QlBLJl4Hwz7M4Xi'
+  # KAFKA_DYNAMIC_NOTIFICATION: 'test_dynamic_notification'
+  # KAFKA_SAVE_DYNAMIC_NOTIFICATION: 'test_save_dynamic_notification'
+  # KAFKA_DAILY_DYNAMIC_NOTIFICATION: 'test_daily_dynamic_notification'
+  # KAFKA_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_save_daily_dynamic_notification'
+  # KAFKA_ADD_WEARABLE_PROGRESS_TRACKING: 'test_progress_add_wearable_tracking'
+  # KAFKA_WEBHOOK_NOTIFICATION: 'test_wearable_connect_webhook'
+  # KAFKA_RETRY_SAVE_DYNAMIC_NOTIFICATION: 'test_retry_save_dynamic_notification'
+  # KAFKA_RETRY_SAVE_DAILY_DYNAMIC_NOTIFICATION: 'test_retry_save_daily_dynamic_notification'
+  # KAFKA_CONSUMER_GROUP_ID: 'test_wearable-connect'
+  # THRYVE_WEBHOOK_URL: 'https://rpqw3v35th.execute-api.us-east-1.amazonaws.com/test/wearable/notification'
 kind: ConfigMap
 metadata:
   name: {{ .Values.name }}
