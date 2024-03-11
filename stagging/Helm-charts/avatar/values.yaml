@@ -1,6 +1,6 @@
 name: avatar
 replicaCount: 1
-AppVersion: "stagging-60f864f-50"
+AppVersion: "stagging-be3761b-52"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/avatar
