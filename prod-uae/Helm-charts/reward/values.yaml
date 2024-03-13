@@ -1,6 +1,6 @@
 name: reward
 replicaCount: 1
-AppVersion: prod-stagging-9385f75-42
+AppVersion: prod-stagging-9385f75-43
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/reward
