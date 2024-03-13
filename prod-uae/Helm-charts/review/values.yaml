@@ -1,6 +1,6 @@
 name: review
 replicaCount: 1
-AppVersion: prod-stagging-ead3d68-25
+AppVersion: prod-stagging-8e551c6-27
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/review
