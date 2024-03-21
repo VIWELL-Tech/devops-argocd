@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "dev-f695538-322"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/progress
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 

@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "dev-25dba17-18"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/wearable-connect
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 

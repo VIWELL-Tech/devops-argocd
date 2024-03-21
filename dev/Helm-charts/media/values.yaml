@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "dev-2d0cedf-64"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/media
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 

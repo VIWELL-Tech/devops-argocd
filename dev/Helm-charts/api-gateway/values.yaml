@@ -3,7 +3,8 @@ replicaCount: 2
 AppVersion: "dev-1f45b2d-187"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/api-gateway
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
+  #repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/api-gateway
   pullPolicy: IfNotPresent
   tag: ''
 

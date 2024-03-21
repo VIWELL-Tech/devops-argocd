@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "dev-a55ec4e-27"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/review
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 

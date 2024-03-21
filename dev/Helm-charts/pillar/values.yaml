@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "dev-60299d4-67"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/pillar
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 

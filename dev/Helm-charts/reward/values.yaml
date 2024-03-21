@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "dev-748ae7f-51"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/reward
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 
