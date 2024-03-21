@@ -1,6 +1,6 @@
 name: wearable-connect
 replicaCount: 1
-AppVersion: "test-9430ac5-19"
+AppVersion: "test-839f8a7-20"
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/wearable-connect
