@@ -32,4 +32,4 @@ namespace: 'dev'
 
 ##for liveness and readiness
 path: '/health'
-port: 80
+port: 8080
