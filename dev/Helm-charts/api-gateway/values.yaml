@@ -16,7 +16,7 @@ podSecurityContext: {}
 service:
   type: NodePort
   port: 80
-  targetport: 80
+  targetport: 8080
 
 # resources:
 #   requests:
