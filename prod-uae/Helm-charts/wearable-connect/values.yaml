@@ -1,6 +1,6 @@
 name: wearable-connect
 replicaCount: 2
-AppVersion: prod-stagging-de932be-39
+AppVersion: prod-stagging-bd9a7d2-46
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/wearable-connect
