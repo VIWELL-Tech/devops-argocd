@@ -1,6 +1,6 @@
 name: api-gateway
 replicaCount: 2
-AppVersion: 450c527-79
+AppVersion: 4fcad96-82
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
