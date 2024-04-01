@@ -1,6 +1,6 @@
 name: pillar
 replicaCount: 1
-AppVersion: 2fe3356-94
+AppVersion: 2d93745-95
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
