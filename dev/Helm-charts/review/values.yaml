@@ -1,6 +1,6 @@
 name: review
 replicaCount: 1
-AppVersion: dd9dece-89
+AppVersion: 6a32787-90
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
