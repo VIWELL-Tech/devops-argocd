@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "test-0daab11-88"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/viwell-seed
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 

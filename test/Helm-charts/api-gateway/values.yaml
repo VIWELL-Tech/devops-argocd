@@ -3,7 +3,7 @@ replicaCount: 2
 AppVersion: "test-d73f10b-94"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/api-gateway
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 

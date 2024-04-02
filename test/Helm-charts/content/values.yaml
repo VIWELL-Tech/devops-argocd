@@ -3,7 +3,7 @@ replicaCount: 1
 AppVersion: "test-468c043-245"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/content
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: IfNotPresent
   tag: ''
 
