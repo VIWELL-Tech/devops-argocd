@@ -1,6 +1,6 @@
 name: category
 replicaCount: 1
-AppVersion: 781e52a-103
+AppVersion: a64be0b-102
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
