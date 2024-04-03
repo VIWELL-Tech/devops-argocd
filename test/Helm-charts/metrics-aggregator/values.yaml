@@ -2,7 +2,7 @@ name: metrics-aggregator
 replicaCount: 1
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/metrics-aggregator
   pullPolicy: Always
   tag: ""
 
