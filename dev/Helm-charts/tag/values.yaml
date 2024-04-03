@@ -1,6 +1,6 @@
 name: tag
 replicaCount: 1
-AppVersion: 9cd3acd-106
+AppVersion: 956d442-107
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
