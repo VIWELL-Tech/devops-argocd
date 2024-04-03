@@ -35,7 +35,7 @@ spec:
 
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
         command: ["node"]
-        args: ["/app/dist/activity/main.js"]
+        args: ["/app/dist/trigger/main.js"]
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         livenessProbe:
           failureThreshold: 3

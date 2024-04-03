@@ -20,7 +20,7 @@ spec:
         - name: {{ .Values.name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           command: ["node"]
-          args: ["/app/dist/activity/main.js"]
+          args: ["/app/dist/viwell-seed/main.js"]
           envFrom:
             - configMapRef:
                 name: {{ .Values.name }}          
