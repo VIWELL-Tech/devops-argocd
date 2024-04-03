@@ -1,5 +1,5 @@
 name: api-gateway
-replicaCount: 2
+replicaCount: 1
 AppVersion: 781e52a-103
 
 image:
