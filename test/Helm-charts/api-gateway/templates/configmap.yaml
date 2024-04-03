@@ -3,7 +3,7 @@ data:
   ENV: "test"
   USER_STORE_DB: "TEST_viwell-user-store"
   VAR: "INPUT"
-  PORT: "80"
+  PORT: "8080"
   HOST: "0.0.0.0"
   JwtIss: "viwell.app"
   KAFKA_CONSUMER_GROUP_ID: 'test_api-gateway'
