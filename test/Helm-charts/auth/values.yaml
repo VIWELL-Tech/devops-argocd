@@ -1,5 +1,5 @@
 name: auth
-replicaCount: 0
+replicaCount: 1
 AppVersion: 67ca0f3-111
 
 image:
