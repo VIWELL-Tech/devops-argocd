@@ -25,11 +25,6 @@ spec:
         version: "{{ .Values.AppVersion }}"
     spec:
       containers:
-      - image: "curlimages/curl:latest"
-        command: ["/bin/sh"]
-        args: ["-c", "while true; do date; sleep 10; done"]
-        imagePullPolicy: {{ .Values.image.pullPolicy }}
-        name: "curl"
       - envFrom:
         - configMapRef:
             name: {{ .Values.name }}
