@@ -1,6 +1,6 @@
 name: logger
 replicaCount: 1
-AppVersion: 7ce67ff-113
+AppVersion: 0b210b0-118
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
