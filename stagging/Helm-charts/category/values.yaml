@@ -1,9 +1,9 @@
 name: category
 replicaCount: 1
-AppVersion: "stagging-b058179-55"
+AppVersion: 119-0b210b0
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/category
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 
