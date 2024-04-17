@@ -33,6 +33,8 @@ spec:
         - secretRef:
              name: common          
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+        command: ["node"]
+        args: ["/app/dist/api-gateway/main.js"]
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         livenessProbe:
           failureThreshold: 3
@@ -46,7 +48,7 @@ spec:
           timeoutSeconds: 1
         name: {{ .Values.name }}
         ports:
-        - containerPort: 80
+        - containerPort: 8080
           protocol: TCP
         readinessProbe:
           failureThreshold: 3

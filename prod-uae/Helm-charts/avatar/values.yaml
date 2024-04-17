@@ -1,9 +1,9 @@
 name: avatar
 replicaCount: 1
-AppVersion: prod-stagging-be3761b-52
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/avatar
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 
