@@ -1,9 +1,9 @@
 name: content
 replicaCount: 1
-AppVersion: prod-stagging-45732ef-104
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/content
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 
