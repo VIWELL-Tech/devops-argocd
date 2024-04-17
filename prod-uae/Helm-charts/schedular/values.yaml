@@ -1,9 +1,9 @@
 name: schedular
 replicaCount: 1
-AppVersion: prod-stagging-20acbc2-57
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/schedular
+  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 
