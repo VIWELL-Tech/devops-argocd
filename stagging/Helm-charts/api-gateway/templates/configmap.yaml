@@ -4,7 +4,7 @@ data:
   ENV: 'stagging'
   SEND_DELETE_COLLECTION_CATEGORY: 'send_delete_collection_category'
   SEND_UPDATE_CLIENT_EVENT: 'send_update_client_event'
-  PORT: "80"
+  PORT: "8080"
   HOST: "0.0.0.0"
   JwtIss: viwell.app
   MIN_POOL_SIZE: "2"
