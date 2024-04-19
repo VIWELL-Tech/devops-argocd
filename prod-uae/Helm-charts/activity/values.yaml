@@ -1,6 +1,6 @@
 name: activity
 replicaCount: 1
-AppVersion: 137-8e70139
+AppVersion: 148-142f971
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
