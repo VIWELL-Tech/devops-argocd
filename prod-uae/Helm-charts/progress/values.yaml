@@ -1,9 +1,9 @@
 name: progress
 replicaCount: 2
-AppVersion: prod-stagging-88dae9d-123
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/progress
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 

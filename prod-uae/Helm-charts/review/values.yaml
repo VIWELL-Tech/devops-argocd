@@ -1,9 +1,9 @@
 name: review
 replicaCount: 1
-AppVersion: prod-stagging-8e551c6-27
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/review
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 

@@ -1,9 +1,9 @@
 name: pillar
 replicaCount: 1
-AppVersion: prod-stagging-375a3f7-30
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/pillar
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 

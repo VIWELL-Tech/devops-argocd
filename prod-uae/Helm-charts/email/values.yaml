@@ -1,9 +1,9 @@
 name: email
 replicaCount: 1
-AppVersion: prod-stagging-8928201-69
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/email
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
   pullPolicy: Always
   email: ''
 

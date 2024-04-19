@@ -1,9 +1,9 @@
 name: api-gateway
 replicaCount: 1
-AppVersion: prod-stagging-a604435-69
+AppVersion: 140-e16ba52
 
 image:
-  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/api-gateway
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 
@@ -14,7 +14,7 @@ podSecurityContext: {}
 
 service:
   type: NodePort
-  port: 80
+  port: 8080
   targetport: 80
 
 # resources:
@@ -31,4 +31,4 @@ namespace: 'prod'
 
 ##for liveness and readiness
 path: '/health'
-port: 80
+port: 8080
