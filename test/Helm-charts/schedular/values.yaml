@@ -1,6 +1,6 @@
 name: schedular
 replicaCount: 1
-AppVersion: 163-f56f783
+AppVersion: 170-c7a296d
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
