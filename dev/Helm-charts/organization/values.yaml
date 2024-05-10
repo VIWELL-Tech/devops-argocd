@@ -1,6 +1,6 @@
 name: organization
 replicaCount: 1
-AppVersion: 178-45717aa
+AppVersion: 179-45717aa
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
