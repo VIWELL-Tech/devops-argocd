@@ -1,6 +1,6 @@
 name: favorite
 replicaCount: 1
-AppVersion: 193-fe9ed9b
+AppVersion: 194-27f9afe
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
