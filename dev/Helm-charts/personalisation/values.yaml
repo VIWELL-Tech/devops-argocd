@@ -1,6 +1,6 @@
 name: personalisation
 replicaCount: 1
-AppVersion: 207-18e4b85
+AppVersion: 208-2370522
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
