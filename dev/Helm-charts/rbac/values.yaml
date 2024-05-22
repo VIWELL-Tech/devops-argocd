@@ -1,6 +1,6 @@
 name: rbac
 replicaCount: 1
-AppVersion: 200-08bf6fe
+AppVersion: 201-8b7198d
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
