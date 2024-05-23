@@ -1,6 +1,6 @@
 name: notification
 replicaCount: 1
-AppVersion: 223-366ff24
+AppVersion: 225-1954b57
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
