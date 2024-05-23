@@ -1,6 +1,6 @@
 name: avatar
 replicaCount: 1
-AppVersion: 227-468289b
+AppVersion: 229-a65e6aa
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
