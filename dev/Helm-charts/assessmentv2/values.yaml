@@ -1,6 +1,6 @@
 name: assessment-v2
 replicaCount: 1
-AppVersion: 256-2d19365
+AppVersion: 259-f22164c
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
