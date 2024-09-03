@@ -1,6 +1,6 @@
 name: push-notification
 replicaCount: 1
-AppVersion: 259-f22164c
+AppVersion: 262-f22164c
 
 image:
   repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
