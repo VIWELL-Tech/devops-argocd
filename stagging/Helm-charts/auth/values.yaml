@@ -1,9 +1,9 @@
 name: auth
 replicaCount: 1
-AppVersion: "stagging-a03380b-148"
+AppVersion: "265-8ec2f27"
 
 image:
-  repository: 814880204573.dkr.ecr.us-east-1.amazonaws.com/backendmain
+  repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
   pullPolicy: Always
   tag: ''
 
