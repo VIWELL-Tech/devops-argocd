@@ -1,6 +1,6 @@
 name: auth
 replicaCount: 1
-AppVersion: 262-f22164c
+AppVersion: 265-8ec2f27
 
 image:
   repository: 814880204573.dkr.ecr.me-central-1.amazonaws.com/backendmain
